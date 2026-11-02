@@ -1,11 +1,11 @@
 ---
-import { live, logo, primaryNav } from '../../content/site.ts';
+import { live, logo, primaryNav, withBase } from '../../content/site.ts';
 ---
 
 <div class="header-sentinel" data-header-sentinel aria-hidden="true"></div>
 <header class="site-header" data-header>
   <div class="container site-header__inner">
-    <a href="/" class="site-header__logo">
+    <a href={withBase('')} class="site-header__logo">
       <img src={logo.src} width={logo.width} height={logo.height} alt={logo.alt} />
     </a>
 

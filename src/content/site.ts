@@ -20,8 +20,12 @@ export interface Link {
   href: string;
 }
 
-export const logo = { src: '/brand/logo.svg', width: 192, height: 48, alt: 'SeoulCeuticals' } as const;
-export const favicon = '/brand/favicon.png';
+/** Prefix a public-folder path with the deploy base (e.g. /nutraceuticals on GitHub Pages). */
+export const withBase = (path: string): string =>
+  `${(import.meta.env.BASE_URL ?? '/').replace(/\/$/, '')}/${path.replace(/^\//, '')}`;
+
+export const logo = { src: withBase('brand/logo.svg'), width: 192, height: 48, alt: 'SeoulCeuticals' } as const;
+export const favicon = withBase('brand/favicon.png');
 
 export const primaryNav: Link[] = [
   { label: 'Shop all', href: live('/collections/all') },

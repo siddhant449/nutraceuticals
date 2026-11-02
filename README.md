@@ -86,7 +86,13 @@ The brand logo and favicon are saved in `public/brand/`.
 | lenis 1.3 | smooth wheel scrolling on fine pointers |
 | three 0.187 | the Formula droplet shader (lazy) |
 | @fontsource/instrument-serif | OFL serif, self-hosted |
-| General Sans (`public/fonts/general-sans`) | ITF Free Font License, self-hosting for the brand's own site is permitted (`FFL.txt`). Do not redistribute the font files publicly. |
+| General Sans (Fontshare API) | loaded from api.fontshare.com, as the ITF Free Font License permits; the font files are not redistributed in this repo |
+
+## Deploy (GitHub Pages)
+
+Every push to `main` runs `.github/workflows/deploy.yml`: tests, then `astro build` with
+`SITE=https://siddhant449.github.io` and `BASE_PATH=/nutraceuticals`, then publishes `dist/` to Pages.
+Live: https://siddhant449.github.io/nutraceuticals/
 
 ## Porting notes
 
