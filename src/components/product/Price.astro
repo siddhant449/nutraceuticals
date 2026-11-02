@@ -1,0 +1,27 @@
+---
+import type { Product } from '../../lib/types.ts';
+import { formatMoney, savingsPercent } from '../../lib/money.ts';
+
+interface Props {
+  product: Product;
+  class?: string;
+}
+
+const { product, class: className } = Astro.props;
+const pct = savingsPercent(product.price, product.compareAtPrice);
+---
+
+<p class:list={['price', className]}>
+  <span class="price__now"><span class="visually-hidden">Price </span>{formatMoney(product.price)}</span>
+  {
+    product.compareAtPrice !== null && pct !== null && (
+      <>
+        <s class="price__was">
+          <span class="visually-hidden">Regular price </span>
+          {formatMoney(product.compareAtPrice)}
+        </s>
+        <span class="price__save">Save {pct}%</span>
+      </>
+    )
+  }
+</p>

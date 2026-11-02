@@ -1,0 +1,51 @@
+.display {
+  font-size: var(--fs-display);
+  font-weight: 500;
+  line-height: 0.9;
+  letter-spacing: -0.045em;
+}
+.h2 {
+  font-size: var(--fs-h2);
+  font-weight: 500;
+  line-height: 0.98;
+  letter-spacing: -0.035em;
+}
+.h3 {
+  font-size: var(--fs-h3);
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+}
+.lead {
+  font-size: var(--fs-lead);
+  line-height: 1.45;
+  letter-spacing: -0.005em;
+}
+.small { font-size: var(--fs-small); line-height: 1.5; }
+.label {
+  font-size: var(--fs-label);
+  font-weight: 500;
+  line-height: 1.3;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.muted { color: var(--c-text-muted); }
+
+/* Editorial serif accent — one phrase per headline. */
+.serif,
+.display em,
+.h2 em,
+.h3 em {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+.display em, .h2 em { font-size: 1.06em; line-height: 0.85; }
+.serif-roman { font-family: var(--font-serif); font-style: normal; font-weight: 400; letter-spacing: -0.005em; }
+
+/* Masked line reveals: wrap each line as .line > span */
+.line { display: block; overflow: hidden; padding-bottom: 0.08em; margin-bottom: -0.08em; }
+.line > span { display: inline-block; will-change: transform; }
+
+.tabular { font-variant-numeric: tabular-nums; }

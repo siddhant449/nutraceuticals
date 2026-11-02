@@ -1,0 +1,33 @@
+---
+import type { ProductImage } from '../../lib/types.ts';
+import { shopifyImage, shopifySrcset } from '../../lib/shopify-image.ts';
+
+interface Props {
+  image: ProductImage;
+  widths?: number[];
+  sizes?: string;
+  priority?: boolean;
+  class?: string;
+  alt?: string;
+  [key: string]: unknown;
+}
+
+const { image, widths = [480, 800, 1200], sizes = '100vw', priority = false, class: className, alt, ...rest } = Astro.props;
+const usable = widths.filter((w) => w <= image.width);
+const set = usable.length ? usable : [image.width];
+const fallback = set[Math.min(1, set.length - 1)]!;
+---
+
+<img
+  src={shopifyImage(image.src, fallback)}
+  srcset={shopifySrcset(image.src, set)}
+  sizes={sizes}
+  width={image.width}
+  height={image.height}
+  alt={alt ?? image.alt}
+  loading={priority ? 'eager' : 'lazy'}
+  decoding={priority ? 'sync' : 'async'}
+  fetchpriority={priority ? 'high' : 'auto'}
+  class={className}
+  {...rest}
+/>

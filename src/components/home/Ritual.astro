@@ -1,0 +1,477 @@
+---
+import Img from '../ui/Img.astro';
+import Price from '../product/Price.astro';
+import AddToBag from '../product/AddToBag.astro';
+import { ritual, ritualIntro, whenLabel } from '../../content/ritual.ts';
+import { getProduct } from '../../lib/catalog.ts';
+
+const steps = ritual.map((s) => ({ ...s, product: getProduct(s.handle) }));
+const { times } = ritualIntro;
+---
+
+<section
+  class="ritual"
+  data-ritual
+  data-time="AM"
+  data-header-theme="light"
+  data-captions={JSON.stringify({ AM: times.AM.caption, PM: times.PM.caption })}
+  aria-labelledby="ritual-title"
+>
+  <div class="ritual__sky ritual__sky--day" aria-hidden="true"></div>
+  <div class="ritual__sky ritual__sky--night" aria-hidden="true"></div>
+
+  <div class="container ritual__inner">
+    <header class="ritual__head">
+      <div class="ritual__intro">
+        <p class="label ritual__muted" data-reveal="up">{ritualIntro.label}</p>
+        <h2 id="ritual-title" class="ritual__title" data-reveal="lines">
+          <span class="line ritual__title-am"><span>{ritualIntro.headline.lead}</span></span>
+          <span class="line ritual__title-pm"><span><em>{ritualIntro.headline.accent}</em></span></span>
+        </h2>
+      </div>
+      <div class="ritual__controls" data-reveal="up">
+        <p class="ritual__muted ritual__body">{ritualIntro.body}</p>
+        <div class="ritual__switch" role="group" aria-label="Time of day">
+          <span class="ritual__thumb" aria-hidden="true"></span>
+          <button type="button" class="ritual__opt" data-ritual-time="AM" aria-pressed="true">
+            <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="4" fill="currentColor"></circle><path d="M10 1v3M10 16v3M1 10h3M16 10h3M3.6 3.6l2.1 2.1M14.3 14.3l2.1 2.1M3.6 16.4l2.1-2.1M14.3 5.7l2.1-2.1" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"></path></svg>
+            <span class="tabular">AM</span><span class="ritual__opt-label">{times.AM.label}</span>
+          </button>
+          <button type="button" class="ritual__opt" data-ritual-time="PM" aria-pressed="false">
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M15.5 12.6A6.5 6.5 0 0 1 7.4 4.5a6.5 6.5 0 1 0 8.1 8.1z" fill="currentColor"></path></svg>
+            <span class="tabular">PM</span><span class="ritual__opt-label">{times.PM.label}</span>
+          </button>
+        </div>
+        <p class="ritual__caption" aria-live="polite" data-ritual-caption>{times.AM.caption}</p>
+      </div>
+    </header>
+
+    <div class="ritual__arc" aria-hidden="true">
+      <svg viewBox="0 0 1000 100" preserveAspectRatio="none">
+        <path d="M0 96 Q500 -60 1000 96" fill="none" stroke="currentColor" stroke-width="1" vector-effect="non-scaling-stroke" data-ritual-path></path>
+      </svg>
+      <span class="ritual__orb" data-ritual-orb></span>
+      <span class="label ritual__arc-end ritual__arc-end--am">AM</span>
+      <span class="label ritual__arc-end ritual__arc-end--pm">PM</span>
+    </div>
+
+    <ol class="ritual__steps" role="list" data-ritual-steps>
+      {
+        steps.map((s) => (
+          <li class="rstep" data-am={s.when.includes('AM') ? '' : undefined} data-pm={s.when.includes('PM') ? '' : undefined}>
+            <div class="rstep__head">
+              <span class="rstep__n tabular" aria-hidden="true">{s.n}</span>
+              <p class="label rstep__when">
+                <span class="visually-hidden">Step {Number(s.n)}: </span>
+                {whenLabel(s)} · {s.verb}
+              </p>
+            </div>
+            <a class="rstep__media" href={s.product.url} tabindex="-1" aria-hidden="true" data-reveal="mask">
+              <Img
+                image={s.image}
+                widths={[480, 720, 960, 1280]}
+                sizes="(min-width: 1024px) 30vw, 80vw"
+                alt=""
+                class="rstep__img"
+                style={`object-position:${s.focus};--zoom:${s.zoom ?? 1}`}
+              />
+              {!s.when.includes('PM') && <span class="rstep__chip label">Morning only</span>}
+            </a>
+            <h3 class="rstep__title">
+              <a href={s.product.url}>{s.product.title}</a>
+            </h3>
+            <p class="rstep__note">{s.note}</p>
+            {s.caution && (
+              <p class="rstep__caution small">
+                <strong>Note</strong> {s.caution}
+              </p>
+            )}
+            <div class="rstep__buy">
+              <Price product={s.product} />
+              <AddToBag product={s.product} />
+            </div>
+          </li>
+        ))
+      }
+    </ol>
+
+    <a class="text-link ritual__cta" href={ritualIntro.cta.href}>{ritualIntro.cta.label}</a>
+  </div>
+</section>
+
+<style>
+  .ritual {
+    --rt-bg: var(--c-porcelain);
+    --rt-fg: var(--c-ink);
+    --rt-muted: var(--c-text-muted);
+    --rt-border: var(--c-border);
+    --rt-orb: var(--c-persimmon);
+    position: relative;
+    isolation: isolate;
+    overflow: clip;
+    padding-block: var(--section-y);
+    color: var(--rt-fg);
+    transition: color 1s var(--ease-in-out);
+  }
+  .ritual[data-time='PM'] {
+    --rt-fg: var(--c-on-dark);
+    --rt-muted: var(--c-on-dark-muted);
+    --rt-border: var(--c-border-dark);
+    --rt-orb: var(--c-porcelain);
+  }
+  .ritual__sky {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    transition: opacity 1.1s var(--ease-in-out);
+  }
+  .ritual__sky--day {
+    background:
+      radial-gradient(circle at 12% 0%, rgba(201, 110, 79, 0.16), transparent 46%),
+      radial-gradient(circle at 90% 100%, rgba(165, 173, 147, 0.14), transparent 50%),
+      var(--c-porcelain);
+  }
+  .ritual__sky--night {
+    opacity: 0;
+    background:
+      radial-gradient(circle at 86% 0%, rgba(217, 217, 211, 0.12), transparent 42%),
+      radial-gradient(circle at 10% 100%, rgba(104, 115, 95, 0.18), transparent 50%),
+      #161816;
+  }
+  .ritual[data-time='PM'] .ritual__sky--night {
+    opacity: 1;
+  }
+  .ritual__muted {
+    color: var(--rt-muted);
+    transition: color 1s var(--ease-in-out);
+  }
+
+  /* Header */
+  .ritual__head {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: var(--col-gap);
+    row-gap: 32px;
+    align-items: end;
+  }
+  .ritual__intro {
+    grid-column: 1 / 8;
+    display: grid;
+    gap: 20px;
+  }
+  .ritual__title {
+    font-size: clamp(3rem, 1rem + 5.6vw, 8rem);
+    font-weight: 500;
+    line-height: 0.92;
+    letter-spacing: -0.045em;
+  }
+  .ritual__title em {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    letter-spacing: -0.015em;
+    font-size: 1.05em;
+  }
+  .ritual__title-pm {
+    padding-left: 0.8em;
+  }
+  .ritual__title-am,
+  .ritual__title-pm {
+    transition: opacity 0.9s var(--ease-in-out);
+  }
+  .ritual[data-time='AM'] .ritual__title-pm,
+  .ritual[data-time='PM'] .ritual__title-am {
+    opacity: 0.32;
+  }
+  .ritual__controls {
+    grid-column: 9 / 13;
+    display: grid;
+    gap: 18px;
+    justify-items: start;
+  }
+  .ritual__body {
+    max-width: 32ch;
+  }
+
+  /* Switch */
+  .ritual__switch {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: min(100%, 360px);
+    padding: 5px;
+    border: 1px solid var(--rt-border);
+    border-radius: 999px;
+    transition: border-color 1s var(--ease-in-out);
+  }
+  .ritual__thumb {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    width: calc(50% - 5px);
+    border-radius: 999px;
+    background: var(--rt-fg);
+    transition:
+      transform 0.7s var(--ease-out),
+      background-color 1s var(--ease-in-out);
+  }
+  .ritual[data-time='PM'] .ritual__thumb {
+    transform: translateX(100%);
+  }
+  .ritual__opt {
+    position: relative;
+    z-index: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 54px;
+    border-radius: 999px;
+    font-size: 0.8125rem;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: var(--rt-muted);
+    transition: color 0.6s var(--ease-out);
+  }
+  .ritual__opt svg {
+    width: 18px;
+    height: 18px;
+  }
+  .ritual__opt[aria-pressed='true'] {
+    color: var(--rt-bg);
+  }
+  .ritual[data-time='PM'] .ritual__opt[aria-pressed='true'] {
+    color: #161816;
+  }
+  .ritual__opt-label {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 1.25rem;
+    letter-spacing: 0;
+    font-weight: 400;
+  }
+  .ritual__caption {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 1.375rem;
+  }
+
+  /* Day arc */
+  .ritual__arc {
+    position: relative;
+    height: clamp(56px, 7vw, 96px);
+    margin: clamp(48px, 6vw, 88px) 0 clamp(8px, 2vw, 24px);
+    color: var(--rt-border);
+  }
+  .ritual__arc svg {
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+  }
+  .ritual__arc path {
+    stroke: var(--rt-muted);
+    opacity: 0.45;
+    stroke-dasharray: 2 6;
+  }
+  .ritual__orb {
+    position: absolute;
+    left: calc(var(--orb-x, 0.2) * 100%);
+    top: calc(var(--orb-y, 0.42) * 100%);
+    width: 22px;
+    height: 22px;
+    margin: -11px 0 0 -11px;
+    border-radius: 50%;
+    background: var(--rt-orb);
+    box-shadow: 0 0 0 8px color-mix(in srgb, var(--rt-orb) 14%, transparent);
+    transition: background-color 1s var(--ease-in-out), box-shadow 1s var(--ease-in-out);
+  }
+  .ritual[data-time='PM'] .ritual__orb {
+    box-shadow:
+      inset -6px -3px 0 0 #161816,
+      0 0 0 8px color-mix(in srgb, var(--rt-orb) 10%, transparent);
+  }
+  .ritual__arc-end {
+    position: absolute;
+    bottom: -22px;
+    color: var(--rt-muted);
+  }
+  .ritual__arc-end--am {
+    left: 0;
+  }
+  .ritual__arc-end--pm {
+    right: 0;
+  }
+
+  /* Steps */
+  .ritual__steps {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: clamp(20px, 2.4vw, 40px);
+    margin-top: clamp(40px, 5vw, 72px);
+    transition: grid-template-columns 0.9s var(--ease-in-out);
+  }
+  .ritual[data-time='PM'] .ritual__steps {
+    grid-template-columns: 0.62fr 1fr 1fr;
+  }
+  .rstep {
+    display: grid;
+    align-content: start;
+    gap: 16px;
+    min-width: 0;
+    transition: opacity 0.9s var(--ease-in-out);
+  }
+  .rstep:nth-child(2) {
+    margin-top: clamp(32px, 5vw, 96px);
+  }
+  .rstep:nth-child(3) {
+    margin-top: clamp(16px, 2.5vw, 48px);
+  }
+  .ritual[data-time='PM'] .rstep:not([data-pm]) .rstep__media {
+    opacity: 0.55;
+  }
+  .rstep__head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  .rstep__n {
+    font-family: var(--font-serif);
+    font-size: clamp(3.5rem, 2rem + 4vw, 7rem);
+    line-height: 0.8;
+    color: var(--rt-fg);
+  }
+  .rstep__when {
+    color: var(--rt-muted);
+  }
+  .rstep__media {
+    position: relative;
+    display: block;
+    aspect-ratio: 4 / 5;
+    overflow: hidden;
+    border-radius: 2px;
+    background: var(--c-porcelain-deep);
+  }
+  .rstep__media :global(.rstep__img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(var(--zoom, 1));
+    transition:
+      transform 1.2s var(--ease-out),
+      filter 0.9s var(--ease-in-out);
+  }
+  .rstep:hover .rstep__media :global(.rstep__img) {
+    transform: scale(calc(var(--zoom, 1) * 1.05));
+  }
+  .ritual[data-time='PM'] .rstep:not([data-pm]) .rstep__media :global(.rstep__img) {
+    filter: grayscale(1) brightness(0.7);
+  }
+  .rstep__chip {
+    position: absolute;
+    left: 14px;
+    bottom: 14px;
+    padding: 8px 12px;
+    border-radius: 999px;
+    background: rgba(22, 24, 22, 0.78);
+    color: var(--c-porcelain);
+    opacity: 0;
+    transform: translateY(8px);
+    transition: opacity 0.6s var(--ease-out), transform 0.6s var(--ease-out);
+  }
+  .ritual[data-time='PM'] .rstep__chip {
+    opacity: 1;
+    transform: none;
+  }
+  .rstep__title {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    font-size: clamp(1.625rem, 1.1rem + 1.2vw, 2.375rem);
+    line-height: 1.05;
+    letter-spacing: -0.01em;
+  }
+  .rstep__note {
+    color: var(--rt-muted);
+    font-size: var(--fs-small);
+    max-width: 40ch;
+    transition: color 1s var(--ease-in-out);
+  }
+  .rstep__caution {
+    padding: 10px 14px;
+    border-left: 2px solid var(--c-persimmon);
+    background: color-mix(in srgb, var(--rt-fg) 6%, transparent);
+  }
+  .rstep__caution strong {
+    font-weight: 500;
+    margin-right: 6px;
+    color: var(--c-persimmon);
+  }
+  .ritual[data-time='AM'] .rstep__caution strong {
+    color: var(--c-persimmon-text);
+  }
+  .rstep__buy {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px 16px;
+    padding-top: 12px;
+    border-top: 1px solid var(--rt-border);
+  }
+  .rstep__buy :global(.price__was) {
+    color: var(--rt-muted);
+  }
+  .ritual[data-time='PM'] .rstep__buy :global(.price__save) {
+    color: var(--c-persimmon);
+  }
+  .ritual[data-time='PM'] .rstep__buy :global(.add-btn:hover:not(:disabled)) {
+    background: var(--c-porcelain);
+    color: #161816;
+    border-color: var(--c-porcelain);
+  }
+  .ritual__cta {
+    margin-top: clamp(40px, 5vw, 72px);
+  }
+
+  @media (max-width: 1023px) {
+    .ritual__intro,
+    .ritual__controls {
+      grid-column: 1 / -1;
+    }
+    .ritual__title-pm {
+      padding-left: 0;
+    }
+  }
+  /* Mobile: steps become a swipeable row with the next card peeking. */
+  @media (max-width: 767px) {
+    .ritual__arc {
+      margin-top: 40px;
+    }
+    .ritual__steps,
+    .ritual[data-time='PM'] .ritual__steps {
+      display: flex;
+      gap: 14px;
+      margin-inline: calc(var(--gutter) * -1);
+      padding-inline: var(--gutter);
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      scroll-padding-inline: var(--gutter);
+      scrollbar-width: none;
+    }
+    .ritual__steps::-webkit-scrollbar {
+      display: none;
+    }
+    .rstep {
+      flex: 0 0 82%;
+      scroll-snap-align: start;
+      margin-top: 0 !important;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .ritual,
+    .ritual *,
+    .ritual__sky {
+      transition-duration: 0.01s !important;
+    }
+  }
+</style>

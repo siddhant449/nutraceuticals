@@ -1,0 +1,127 @@
+---
+import Img from '../ui/Img.astro';
+import Button from '../ui/Button.astro';
+import { brandStory } from '../../content/home.ts';
+---
+
+<section class="story section" aria-labelledby="story-title">
+  <div class="container story__grid">
+    <figure class="story__still">
+      <div class="story__arch" data-reveal="mask">
+        <Img image={brandStory.stillLife} widths={[600, 900, 1300, 1800]} sizes="(min-width: 1024px) 46vw, 100vw" data-parallax="-5" />
+      </div>
+      <figcaption class="label muted">
+        <span class="tabular">Fig. 04</span> · Korean ginseng, rice, centella and gel texture
+      </figcaption>
+    </figure>
+
+    <div class="story__text">
+      <p class="label muted" data-reveal="up">{brandStory.label}</p>
+      <h2 id="story-title" class="h2" data-reveal="lines">
+        <span class="line"><span>{brandStory.headline.lead}</span></span>
+        <span class="line"><span><em>{brandStory.headline.accent}</em></span></span>
+      </h2>
+      <p class="lead muted" data-reveal="up">{brandStory.intro}</p>
+
+      <ol class="story__ledger" role="list">
+        {
+          brandStory.ledger.map((item) => (
+            <li class="story__item" data-reveal="up">
+              <span class="story__n label tabular">{item.n}</span>
+              <div class="story__item-body">
+                <h3 class="story__item-title">{item.title}</h3>
+                <p class="small muted">{item.body}</p>
+              </div>
+              {item.n === '05' && (
+                <Img image={brandStory.portrait} widths={[160, 240]} sizes="64px" class="story__portrait" />
+              )}
+            </li>
+          ))
+        }
+      </ol>
+
+      <div data-reveal="up">
+        <Button href={brandStory.cta.href} variant="ghost">{brandStory.cta.label}</Button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .story__grid {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: var(--col-gap);
+    row-gap: 56px;
+    align-items: start;
+  }
+  .story__still {
+    grid-column: 1 / 7;
+    margin: 0;
+    display: grid;
+    gap: 14px;
+    position: sticky;
+    top: calc(var(--header-h) + 32px);
+  }
+  .story__arch {
+    aspect-ratio: 4 / 5;
+    overflow: hidden;
+    border-radius: 999px 999px 0 0;
+  }
+  .story__arch :global(img) {
+    width: 100%;
+    height: 112%;
+    margin-top: -6%;
+    object-fit: cover;
+  }
+  .story__text {
+    grid-column: 8 / 13;
+    display: grid;
+    gap: 24px;
+    justify-items: start;
+    padding-top: clamp(0px, 4vw, 64px);
+  }
+  .story__ledger {
+    width: 100%;
+    margin: 12px 0 8px;
+    border-top: 1px solid var(--c-ink);
+  }
+  .story__item {
+    display: grid;
+    grid-template-columns: 44px minmax(0, 1fr) auto;
+    gap: 14px;
+    align-items: start;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--c-border);
+  }
+  .story__n {
+    color: var(--c-persimmon-text);
+    padding-top: 6px;
+  }
+  .story__item-title {
+    font-size: clamp(1.125rem, 1rem + 0.5vw, 1.375rem);
+    font-weight: 500;
+    letter-spacing: -0.015em;
+    line-height: 1.2;
+    margin-bottom: 6px;
+  }
+  .story__item :global(.story__portrait) {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 25%;
+  }
+  @media (max-width: 1023px) {
+    .story__still,
+    .story__text {
+      grid-column: 1 / -1;
+    }
+    .story__still {
+      position: static;
+    }
+    .story__arch {
+      aspect-ratio: 1;
+    }
+  }
+</style>

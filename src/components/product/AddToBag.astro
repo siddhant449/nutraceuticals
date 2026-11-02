@@ -1,0 +1,34 @@
+---
+import type { Product } from '../../lib/types.ts';
+
+interface Props {
+  product: Product;
+  class?: string;
+  label?: string;
+}
+
+const { product, class: className, label = 'Add to bag' } = Astro.props;
+---
+
+{
+  product.available ? (
+    <button
+      type="button"
+      class:list={['add-btn', className]}
+      data-add-to-bag
+      data-variant-id={product.variantId}
+      data-handle={product.handle}
+      data-label={label}
+      aria-label={`${label}: ${product.title}`}
+    >
+      <svg class="add-btn__icon" viewBox="0 0 12 12" aria-hidden="true">
+        <path d="M6 1v10M1 6h10" stroke="currentColor" stroke-width="1.3" fill="none" />
+      </svg>
+      <span data-add-text>{label}</span>
+    </button>
+  ) : (
+    <button type="button" class:list={['add-btn', className]} disabled>
+      Sold out
+    </button>
+  )
+}

@@ -1,0 +1,199 @@
+---
+import { allProducts } from '../../lib/catalog.ts';
+import { shopifyImage } from '../../lib/shopify-image.ts';
+import { shipping } from '../../content/site.ts';
+import { safeJson } from '../../lib/safe-json.ts';
+
+/** Compact catalog the client bag uses to render lines: { [variantId]: [handle, title, price, image, url] } */
+const catalog = Object.fromEntries(
+  allProducts()
+    .filter((p) => p.available)
+    .map((p) => [
+      p.variantId,
+      { h: p.handle, t: p.title, p: p.price, i: p.images[0] ? shopifyImage(p.images[0].src, 160) : '', u: p.url },
+    ]),
+);
+---
+
+<dialog id="bag-drawer" class="drawer" aria-labelledby="bag-title" data-bag-drawer>
+  <div class="drawer__panel">
+    <div class="drawer__head">
+      <h2 id="bag-title" class="drawer__title">Your bag <span class="tabular muted" data-bag-title-count></span></h2>
+      <button type="button" class="drawer__close" data-dialog-close>
+        <span>Close</span>
+        <svg width="14" height="14" viewBox="0 0 14 14" aria-hidden="true">
+          <path d="M1 1l12 12M13 1L1 13" stroke="currentColor" stroke-width="1.3"></path>
+        </svg>
+      </button>
+    </div>
+
+    <div class="drawer__body" data-lenis-prevent>
+      <ul role="list" class="drawer__lines" data-bag-lines></ul>
+      <div class="drawer__empty" data-bag-empty>
+        <p class="drawer__empty-title">Your bag is empty.</p>
+        <p class="small muted">Start with the formulas customers come back for.</p>
+        <a href="#bestsellers" class="text-link" data-dialog-close>Shop bestsellers</a>
+      </div>
+    </div>
+
+    <div class="drawer__foot">
+      <div class="drawer__subtotal">
+        <span>Subtotal</span>
+        <span class="tabular" data-bag-subtotal>$0.00</span>
+      </div>
+      <p class="small muted">
+        {shipping}. Discounts, taxes and payment are handled at checkout on seoulceuticals.com.
+      </p>
+      <a class="btn btn--primary btn--block" data-bag-checkout aria-disabled="true" rel="noopener">
+        Checkout on seoulceuticals.com
+        <svg class="btn__arrow" width="14" height="10" viewBox="0 0 14 10" fill="none" aria-hidden="true">
+          <path d="M1 5h12M9 1l4 4-4 4" stroke="currentColor" stroke-width="1.3"></path>
+        </svg>
+      </a>
+    </div>
+  </div>
+</dialog>
+<div class="visually-hidden" role="status" aria-live="polite" data-bag-status></div>
+<script type="application/json" id="bag-catalog" set:html={safeJson(catalog)} />
+
+<style>
+  .drawer {
+    position: fixed;
+    inset: 0 0 0 auto;
+    width: min(460px, 100vw);
+    max-width: none;
+    height: 100dvh;
+    max-height: none;
+    margin: 0 0 0 auto;
+    padding: 0;
+    border: 0;
+    background: var(--c-porcelain);
+    color: var(--c-ink);
+  }
+  .drawer::backdrop {
+    background: rgba(25, 27, 25, 0.38);
+    backdrop-filter: blur(2px);
+  }
+  .drawer[open] {
+    animation: drawer-in var(--dur-standard) var(--ease-out);
+  }
+  @keyframes drawer-in {
+    from {
+      transform: translateX(40px);
+      opacity: 0;
+    }
+  }
+  .drawer__panel {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100%;
+  }
+  .drawer__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 24px;
+    border-bottom: 1px solid var(--c-border);
+  }
+  .drawer__title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+  }
+  .drawer__close {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    min-height: 44px;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  .drawer__body {
+    overflow-y: auto;
+    padding: 8px 24px;
+    overscroll-behavior: contain;
+  }
+  .drawer__empty {
+    display: grid;
+    gap: 10px;
+    justify-items: start;
+    padding: 40px 0;
+  }
+  .drawer__empty[hidden] {
+    display: none;
+  }
+  .drawer__empty-title {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 1.75rem;
+    line-height: 1.1;
+  }
+  .drawer__foot {
+    display: grid;
+    gap: 14px;
+    padding: 20px 24px 24px;
+    border-top: 1px solid var(--c-border);
+    background: var(--c-porcelain-deep);
+  }
+  .drawer__subtotal {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+  }
+  .drawer__lines :global(.bag-line) {
+    display: grid;
+    grid-template-columns: 76px 1fr;
+    gap: 16px;
+    padding: 18px 0;
+    border-bottom: 1px solid var(--c-border);
+  }
+  .drawer__lines :global(.bag-line img) {
+    width: 76px;
+    height: 76px;
+    object-fit: cover;
+    background: var(--c-porcelain-deep);
+  }
+  .drawer__lines :global(.bag-line__title) {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    line-height: 1.3;
+  }
+  .drawer__lines :global(.bag-line__row) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  .drawer__lines :global(.qty) {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid var(--c-border);
+    border-radius: 999px;
+  }
+  .drawer__lines :global(.qty button) {
+    width: 40px;
+    height: 40px;
+    font-size: 1.1rem;
+  }
+  .drawer__lines :global(.qty output) {
+    min-width: 22px;
+    text-align: center;
+    font-size: 0.875rem;
+  }
+  .drawer__lines :global(.bag-line__remove) {
+    min-height: 40px;
+    font-size: 0.8125rem;
+    color: var(--c-text-muted);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .drawer__lines :global(.bag-line__price) {
+    font-size: 0.875rem;
+    color: var(--c-text-muted);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .drawer[open] {
+      animation: none;
+    }
+  }
+</style>

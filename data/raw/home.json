@@ -1,0 +1,200 @@
+{
+  "capturedAt": "2026-11-02T11:31:32.728Z",
+  "source": "https://seoulceuticals.com/",
+  "faq": [
+    {
+      "q": "Will this work on mature or sensitive skin?",
+      "a": "Yes. Our formulas pair gentle Korean actives like snail mucin, PDRN and Centella with clinical actives, so they support the skin barrier instead of stripping it. They work for skin from your 30s through your 50s and beyond, sensitive and reactive skin included. If your skin runs very reactive, patch test on your inner arm first."
+    },
+    {
+      "q": "Why combine Korean ingredients with clinical actives instead of picking one?",
+      "a": "Because each does something the other can't. PDRN and snail mucin repair and hydrate at a level clinical actives don't touch. Vitamin C, retinol and volufiline deliver the targeted, measurable results Korean actives alone can't promise. Put both in the same formula and you get repair and results in one step, not two separate routines."
+    },
+    {
+      "q": "Is snail mucin cruelty-free, and is it vegan?",
+      "a": "Our snail mucin is cruelty-free. It's collected without harming the snails, using a slow, low-stress process. It isn't vegan, since it's an animal-derived ingredient. If you're building a fully vegan routine, choose formulas without snail mucin, PDRN (salmon DNA), honey, propolis or royal jelly."
+    },
+    {
+      "q": "How soon will I actually see results?",
+      "a": "Most customers notice a difference in texture and hydration within 1 to 2 weeks. Visible changes to fine lines, tone and firmness typically build over 4 to 8 weeks of consistent use, which is how long it takes clinical actives like retinol and vitamin C to show their work. The before-and-afters on this page are real customer timelines, not day-one photos."
+    },
+    {
+      "q": "I'm new to K-Beauty. Where do I start?",
+      "a": "Start with the PDRN Bundle. It's 3 formulas (serum, cream and eye cream) built to work as one simple routine, so you get the combination approach without piecing together 5 separate products. Once you know what your skin responds to, our Shop by Concern page will point you toward what to add next."
+    },
+    {
+      "q": "Are your formulations really Korean?",
+      "a": "Our formulas are Korean-inspired. Seoul Ceuticals was founded in the U.S. in 2016 and our products are made in America, with ingredients sourced directly from South Korea — traditional ones used in Korean skincare for centuries, like Cica, Korean Ginseng, Rice Bran, Green Tea, Honey, Propolis, Safflower and Sea Minerals."
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Joe",
+      "text": "More even tone, fewer lines, and people keep commenting on my skin.",
+      "label": "VERIFIED REVIEW",
+      "productTitle": "PDRN Salmon DNA Snail Mucin Face Cream Moisturizer",
+      "productHandle": "pdrn-snail-mucin-cream"
+    },
+    {
+      "name": "Drea",
+      "text": "After a few uses my skin was actually glowing. I ordered a second bottle before I finished the first.",
+      "label": "VERIFIED REVIEW",
+      "productTitle": "Miracle Clear Snail Mucin Cleanser",
+      "productHandle": "miracle-clear-snail-mucin-cleanser"
+    },
+    {
+      "name": "Natalie",
+      "text": "Unlike other vitamin C serums, this doesn't go tacky. Light, even, easy to layer under everything else.",
+      "label": "VERIFIED REVIEW",
+      "productTitle": "PDRN Salmon DNA Vitamin C E Ferulic Serum",
+      "productHandle": "pdrn-salmon-dna-serum"
+    }
+  ],
+  "quote": {
+    "raw": "“It really improved my 74-year-old complexion in such a short space of time.” PAIGE · USING THE PDRN SALMON DNA VITAMIN C E FERULIC SERUM"
+  },
+  "transformAlts": [
+    {
+      "file": "before1.jpg",
+      "alt": "Real customer result 1"
+    },
+    {
+      "file": "after1.jpg",
+      "alt": "Real customer result 1"
+    },
+    {
+      "file": "before-2.jpg",
+      "alt": "Real customer result 2"
+    },
+    {
+      "file": "after-2.jpg",
+      "alt": "Real customer result 2"
+    },
+    {
+      "file": "sc-ba-1-before.png",
+      "alt": "Real customer result 3"
+    },
+    {
+      "file": "sc-ba-1-after.png",
+      "alt": "Real customer result 3"
+    },
+    {
+      "file": "before-3.jpg",
+      "alt": "Real customer result 4"
+    },
+    {
+      "file": "after-3.jpg",
+      "alt": "Real customer result 4"
+    }
+  ],
+  "assets": {
+    "before1.jpg": {
+      "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/before1.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    "after1.jpg": {
+      "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/after1.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    "before-2.jpg": {
+      "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/before-2.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    "after-2.jpg": {
+      "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/after-2.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    "sc-ba-1-before.png": {
+      "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/sc-ba-1-before.png",
+      "width": 1194,
+      "height": 1154
+    },
+    "sc-ba-1-after.png": {
+      "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/sc-ba-1-after.png",
+      "width": 1194,
+      "height": 1157
+    },
+    "before-3.jpg": {
+      "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/before-3.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    "after-3.jpg": {
+      "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/after-3.jpg",
+      "width": 1000,
+      "height": 1000
+    },
+    "collection1.jpg": {
+      "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/collection1.jpg",
+      "width": 1208,
+      "height": 1500
+    },
+    "collection2.jpg": {
+      "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/collection2.jpg",
+      "width": 1208,
+      "height": 1500
+    },
+    "collection3.jpg": {
+      "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/collection3.jpg",
+      "width": 1208,
+      "height": 1500
+    },
+    "collection4.jpg": {
+      "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/collection4.jpg",
+      "width": 1208,
+      "height": 1500
+    },
+    "collection5.jpg": {
+      "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/collection5.jpg",
+      "width": 1208,
+      "height": 1500
+    },
+    "sc-snail-banner-product.png": {
+      "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/sc-snail-banner-product.png",
+      "width": 3376,
+      "height": 1838
+    },
+    "sc-ritual-step-1.png": {
+      "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/sc-ritual-step-1.png",
+      "width": 693,
+      "height": 560
+    },
+    "pdrn-bundle.jpg": {
+      "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/pdrn-bundle.jpg",
+      "width": 1600,
+      "height": 1600
+    },
+    "sc-ritual-step-2.png": {
+      "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/sc-ritual-step-2.png",
+      "width": 693,
+      "height": 560
+    },
+    "sc-closer-bg.jpg": {
+      "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/sc-closer-bg.jpg",
+      "width": 2731,
+      "height": 4096
+    },
+    "sc-ritual-step-3.png": {
+      "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/sc-ritual-step-3.png",
+      "width": 695,
+      "height": 560
+    },
+    "sc-promise-bg.jpg": {
+      "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/sc-promise-bg.jpg",
+      "width": 3000,
+      "height": 3000
+    }
+  },
+  "favicon": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/Favicon_c5389e26-df7f-42e8-a928-88822c228660.png",
+  "logo": {
+    "file": "public/brand/logo.svg",
+    "width": 192,
+    "height": 48,
+    "alt": "SeoulCeuticals",
+    "source": "https://seoulceuticals.com/cdn/shop/t/63/assets/sc-nav-logo.svg"
+  }
+}

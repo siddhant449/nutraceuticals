@@ -1,0 +1,3827 @@
+{
+  "capturedAt": "2026-11-02T11:31:32.728Z",
+  "source": "https://seoulceuticals.com/products.json",
+  "products": [
+    {
+      "handle": "pdrn-salmon-dna-trio",
+      "title": "PDRN Youthful Dewy Glow Routine",
+      "type": "Bundle",
+      "tags": [
+        "concern:anti-aging",
+        "concern:hydration"
+      ],
+      "concerns": [
+        "anti-aging",
+        "hydration"
+      ],
+      "isBundle": true,
+      "isBestseller": false,
+      "variantId": 49328585408667,
+      "price": 5699,
+      "compareAtPrice": 7247,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/PDRN-TRIO.jpg?v=1790111311",
+          "width": 2048,
+          "height": 2048,
+          "alt": "PDRN Youthful Dewy Glow Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/trio-2.jpg?v=1788210678",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Youthful Dewy Glow Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/What-it-does.jpg?v=1788210678",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Youthful Dewy Glow Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/PDRN-serum-2.jpg?v=1788217916",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Youthful Dewy Glow Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/clean-skincare.jpg?v=1788210678",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Youthful Dewy Glow Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/How-to-use--new.jpg?v=1788210678",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Youthful Dewy Glow Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/trio-4.jpg?v=1788210678",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Youthful Dewy Glow Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/what-is-PDRN.jpg?v=1788210678",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Youthful Dewy Glow Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/why-trio.jpg?v=1788210678",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Youthful Dewy Glow Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/value-pdrntrio.jpg?v=1788210678",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Youthful Dewy Glow Routine"
+        }
+      ],
+      "description": "Three steps, one active. Salmon DNA — polynucleotide, or PDRN — runs through the serum, the face cream and the eye cream, so skin gets the same repair-focused ingredient at every layer of the routine rather than in a single step. PDRN is the K-beauty ingredient behind the “salmon DNA facial” treatments. In topical form it works alongside the supporting cast in each formula: vitamin C and ferulic acid for radiance, snail mucin filtrate and shea for barrier comfort, peptides and ginseng around the eye. What's inside PDRN Salmon DNA Vitamin C E Ferulic Serum — 1 fl oz. The brightening step. Sodium DNA with sodium ascorbyl phosphate, vitamin E and ferulic acid, plus Korean ginseng, gotu kola and green tea. Helps even the look of tone and smooth the appearance of fine lines. PDRN Salmon DNA Snail Mucin Face Cream Moisturizer. The barrier step. Snail secretion filtrate, organic shea butter, avocado and jojoba oils, panthenol and a touch of retinol. Deeply moisturizing, and supports the skin barrier so the complexion feels soft and comfortable. PDRN Salmon DNA Lifting Firming Eye Cream — 0.5 oz. The delicate step. A gentler concentration for the eye area, with palmitoyl peptides, CoQ10, cucumber and eyebright to hydrate and help improve the look of firmness. Who it's for Anyone wanting to bring PDRN into a full routine instead of testing it in one product — and anyone whose main concerns are loss of firmness, dullness, or fine lines that show first around the eyes. Suits all skin types, including sensitive skin, though a patch test is always worth doing first. Cruelty free. Formulated without parabens, sulfates or phthalates.",
+      "rating": {
+        "value": 4.8,
+        "count": 308
+      },
+      "url": "https://seoulceuticals.com/products/pdrn-salmon-dna-trio"
+    },
+    {
+      "handle": "pdrn-snail-mucin-cream",
+      "title": "PDRN Salmon DNA Snail Mucin Face Cream Moisturizer",
+      "type": "Moisturizer",
+      "tags": [
+        "anti aging",
+        "anti wrinkle",
+        "bestseller",
+        "concern:anti-aging",
+        "concern:hydration",
+        "cruelty free",
+        "k beauty products",
+        "korean beauty products",
+        "korean cream",
+        "korean moisturizer",
+        "korean skin care",
+        "korean skin care routine",
+        "korean skincare",
+        "PDRN",
+        "Salmon DNA",
+        "snail cream",
+        "snail repair cream"
+      ],
+      "concerns": [
+        "anti-aging",
+        "hydration"
+      ],
+      "isBundle": false,
+      "isBestseller": true,
+      "variantId": 48974515732635,
+      "price": 1989,
+      "compareAtPrice": 2499,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals_PDRN_Snail_Mucin_Cream.png?v=1786913491",
+          "width": 4096,
+          "height": 4096,
+          "alt": "PDRN Salmon DNA Snail Mucin Face Cream Moisturizer"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/ingr-PDRN-cream.jpg?v=1788483399",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Snail Mucin Face Cream Moisturizer"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/how-to-use-PDRN-cream.jpg?v=1788483399",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Snail Mucin Face Cream Moisturizer"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/results-PDRN-cream.jpg?v=1788483399",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Snail Mucin Face Cream Moisturizer"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/icons-PDRN-cream.jpg?v=1788483399",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Snail Mucin Face Cream Moisturizer"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/texture-PDRN-cream.jpg?v=1788483399",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Snail Mucin Face Cream Moisturizer"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/comparison-table-PDRN-cream.jpg?v=1788483399",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Snail Mucin Face Cream Moisturizer"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/routine-PDRN-cream.jpg?v=1788483399",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Snail Mucin Face Cream Moisturizer"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/value-PDRN-cream.jpg?v=1788483399",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Snail Mucin Face Cream Moisturizer"
+        }
+      ],
+      "description": "Powered by PDRN, 97.5% concentration snail mucin, retinol and organic green tea, this nourishing cream is designed to help skin look smoother, plumper and more renewed. It helps improve the appearance of texture, dullness and uneven-looking tone while supporting a healthier, more refreshed complexion. Key ingredients PDRN (salmon DNA) — helps support skin renewal and the look of elasticity, texture and vitality. 97.5% concentration snail secretion filtrate — hydrates, soothes and supports visibly smoother skin. Organic green tea — antioxidant support that calms the look of stressed skin. Shea butter, avocado oil and centella — comfort dry skin and lock in hydration.",
+      "rating": null,
+      "url": "https://seoulceuticals.com/products/pdrn-snail-mucin-cream"
+    },
+    {
+      "handle": "pdrn-eye-cream",
+      "title": "PDRN Salmon DNA Lifting Firming Eye Cream",
+      "type": "Moisturizer",
+      "tags": [
+        "anti aging",
+        "anti wrinkle",
+        "bestseller",
+        "concern:anti-aging",
+        "cruelty free",
+        "eye wrinkle cream",
+        "glowing skin",
+        "k beauty products",
+        "korean beauty products",
+        "korean eye cream",
+        "korean skin care",
+        "korean skin care routine",
+        "korean skincare",
+        "PDRN",
+        "Salmon DNA",
+        "snail eye cream"
+      ],
+      "concerns": [
+        "anti-aging"
+      ],
+      "isBundle": false,
+      "isBestseller": true,
+      "variantId": 48974405435547,
+      "price": 1849,
+      "compareAtPrice": 2249,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals-PDRN-Eye-Cream.jpg?v=1787013888",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Lifting Firming Eye Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/Icons-v2.jpg?v=1784749985",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Lifting Firming Eye Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/new-shocked-lady-wit-benefits-z.jpg?v=1784749986",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Lifting Firming Eye Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/5-potent-ingrediens-PEC.jpg?v=1784749984",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Lifting Firming Eye Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/cbwc-PEC.jpg?v=1784749984",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Lifting Firming Eye Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/snail-love-PEC.jpg?v=1784749985",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Lifting Firming Eye Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/PEC-footer-2.jpg?v=1784749987",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Lifting Firming Eye Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/kifk-PEC.jpg?v=1784749986",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Lifting Firming Eye Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/8-steps-square_5_USE_FINAL.jpg?v=1784826098",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Lifting Firming Eye Cream"
+        }
+      ],
+      "description": "Powered by PDRN, snail mucin, peptides and hyaluronic acid, this targeted eye cream is designed to help the under-eye area look smoother, firmer and more refreshed. It helps improve the appearance of fine lines, dryness, puffiness and tired-looking eyes. Key ingredients PDRN (salmon DNA) — helps support skin renewal and the look of elasticity and texture. Peptides — help improve the appearance of firmness and fine lines around the eye area. Snail mucin — hydrates and soothes. Korean ginseng, cucumber and CoQ10 — brighten and comfort the delicate eye area.",
+      "rating": null,
+      "url": "https://seoulceuticals.com/products/pdrn-eye-cream"
+    },
+    {
+      "handle": "tranexamic-acid-serum",
+      "title": "Tranexamic Acid + Vitamin C Serum",
+      "type": "Serum",
+      "tags": [
+        "anti aging",
+        "anti wrinkle",
+        "antioxidant serum",
+        "bestseller",
+        "concern:brightening",
+        "glowing skin",
+        "hyaluronic acid",
+        "hyaluronic acid serum",
+        "k beauty products",
+        "korean beauty products",
+        "korean serum",
+        "korean skin care",
+        "korean skin care routine",
+        "korean skincare",
+        "night serum"
+      ],
+      "concerns": [
+        "brightening"
+      ],
+      "isBundle": false,
+      "isBestseller": true,
+      "variantId": 48743274905755,
+      "price": 2099,
+      "compareAtPrice": 2549,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/txa-website.jpg?v=1787855600",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Tranexamic Acid + Vitamin C Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/Tranexamic-Acid-Serum-Ingredient-Infographic-2.jpg?v=1787855461",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Tranexamic Acid + Vitamin C Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/Tranexamic-Acid-Serum-chart.jpg?v=1787855461",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Tranexamic Acid + Vitamin C Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/Tranexamic-Acid-Serum-icons.jpg?v=1787855461",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Tranexamic Acid + Vitamin C Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/Tranexamic-Acid-Serum-how-to-use.jpg?v=1787855461",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Tranexamic Acid + Vitamin C Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/Tranexamic-Acid-Serum-routine-2.jpg?v=1787855461",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Tranexamic Acid + Vitamin C Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/Tranexamic-Acid-Serum-Texture.jpg?v=1787855461",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Tranexamic Acid + Vitamin C Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/Tranexamic-Acid-Serum-value.jpg?v=1787855461",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Tranexamic Acid + Vitamin C Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/Tranexamic-Acid-Serum-what-it-does-2.jpg?v=1787855461",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Tranexamic Acid + Vitamin C Serum"
+        }
+      ],
+      "description": "Powered by tranexamic acid, vitamin C, niacinamide and hyaluronic acid, this brightening serum is designed to help improve the look of uneven tone, dullness and discoloration. It helps skin appear clearer, smoother and more radiant while supporting a fresh, healthy-looking glow. Key ingredients Tranexamic acid — helps improve the appearance of dark spots, discoloration and uneven-looking tone. Vitamin C — helps visibly brighten dull skin for a more radiant glow. Niacinamide — improves the look of tone, texture and visible pores while supporting the skin barrier. Ferulic acid and vitamin E — add antioxidant support.",
+      "rating": null,
+      "url": "https://seoulceuticals.com/products/tranexamic-acid-serum"
+    },
+    {
+      "handle": "volufiline-snail-mucin-serum",
+      "title": "Volufiline Snail Mucin Serum",
+      "type": "Serum",
+      "tags": [
+        "anti aging",
+        "anti wrinkle",
+        "antioxidant serum",
+        "bestseller",
+        "centella asiatica serum",
+        "cica",
+        "cica serum",
+        "concern:anti-aging",
+        "concern:hydration",
+        "glowing skin",
+        "hyaluronic acid",
+        "hyaluronic acid serum",
+        "k beauty products",
+        "korean beauty products",
+        "korean serum",
+        "korean skin care",
+        "korean skin care routine",
+        "korean skincare",
+        "night serum",
+        "snail serum"
+      ],
+      "concerns": [
+        "anti-aging",
+        "hydration"
+      ],
+      "isBundle": false,
+      "isBestseller": true,
+      "variantId": 48127509561499,
+      "price": 2199,
+      "compareAtPrice": 2549,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals-Volufiline-Serum.jpg?v=1787004618",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Volufiline Snail Mucin Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/4PI.jpg?v=1782487196",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Volufiline Snail Mucin Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/ICONS-2_2c621322-3496-4f17-8ed8-37369b5bc909.jpg?v=1782487206",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Volufiline Snail Mucin Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/KIFK_61c2a293-6ebf-41d2-98ba-85ead59b3bb5.jpg?v=1782487222",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Volufiline Snail Mucin Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/CBWC_d3c672e7-ea68-4726-883f-3906d5c47291.jpg?v=1782487233",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Volufiline Snail Mucin Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SIDE-TEXT.jpg?v=1782487258",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Volufiline Snail Mucin Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SHOCKED-FOOTER.jpg?v=1782487271",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Volufiline Snail Mucin Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/hf_20260615_2002522_fe6a0509-3453-4887-9db3-0054ffd9607f.jpg?v=1782487297",
+          "width": 2000,
+          "height": 2000,
+          "alt": "Volufiline Snail Mucin Serum"
+        }
+      ],
+      "description": "This advanced Volufiline® + snail mucin serum helps skin look plumper, fuller and smoother while delivering lightweight daily hydration. Designed for areas prone to visible volume loss, it supports a firmer, softer, more supple-looking complexion. Key ingredients 5% Volufiline® — helps improve the look of fullness and plumpness. 97.5% concentration snail filtrate — hydrates and softens for smoother-looking skin. Hyaluronic acid in four forms — boosts moisture for a supple feel. Cica — helps support calm, healthy-looking skin.",
+      "rating": null,
+      "url": "https://seoulceuticals.com/products/volufiline-snail-mucin-serum"
+    },
+    {
+      "handle": "pdrn-salmon-dna-serum",
+      "title": "PDRN Salmon DNA Vitamin C E Ferulic Serum",
+      "type": "Serum",
+      "tags": [
+        "anti aging",
+        "anti wrinkle",
+        "bestseller",
+        "concern:anti-aging",
+        "concern:brightening",
+        "day serum",
+        "glowing skin",
+        "k beauty products",
+        "korean beauty products",
+        "korean serum",
+        "korean skin care",
+        "korean skin care routine",
+        "korean skincare",
+        "vc serum",
+        "vitamin c serum",
+        "vitamin c with hyaluronic acid"
+      ],
+      "concerns": [
+        "anti-aging",
+        "brightening"
+      ],
+      "isBundle": false,
+      "isBestseller": true,
+      "variantId": 47538900959387,
+      "price": 2099,
+      "compareAtPrice": 2499,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals-PDRN-_-Vitamin-C-Serum.jpg?v=1787004617",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Vitamin C E Ferulic Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/ingredients-PDRNs.jpg?v=1789502296",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Vitamin C E Ferulic Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/icons-PDRNs.jpg?v=1789502296",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Vitamin C E Ferulic Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/results-PDRNs.jpg?v=1789502296",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Vitamin C E Ferulic Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/how-to-use-PDRNs.jpg?v=1789502296",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Vitamin C E Ferulic Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/texture-PDRNs.jpg?v=1789502296",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Vitamin C E Ferulic Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/comparison-table-PDRNs.jpg?v=1789502296",
+          "width": 2600,
+          "height": 2600,
+          "alt": "PDRN Salmon DNA Vitamin C E Ferulic Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/routine-PDRNs.jpg?v=1789502296",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Vitamin C E Ferulic Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/value-PDRNs.jpg?v=1789502296",
+          "width": 3000,
+          "height": 3000,
+          "alt": "PDRN Salmon DNA Vitamin C E Ferulic Serum"
+        }
+      ],
+      "description": "Powered by an advanced PDRN + Vitamin C complex, this serum is designed to help skin look brighter, smoother and more refreshed. It supports a more even-looking tone while improving the appearance of dull, tired skin — without feeling heavy. Key ingredients PDRN (salmon DNA) — helps support skin renewal and improve the look of elasticity, texture and overall vitality. Vitamin C — helps visibly brighten skin and improve the appearance of uneven tone. Ferulic acid — provides antioxidant support and enhances vitamin C stability. Hyaluronic acid and centella asiatica — boost hydration and support the skin barrier.",
+      "rating": {
+        "value": 4.7,
+        "count": 38
+      },
+      "url": "https://seoulceuticals.com/products/pdrn-salmon-dna-serum"
+    },
+    {
+      "handle": "day-glow-vitamin-c-serum-2oz",
+      "title": "Day Glow Vitamin C Serum — 2oz",
+      "type": "Serum",
+      "tags": [
+        "anti aging",
+        "anti wrinkle",
+        "bestseller",
+        "concern:anti-aging",
+        "concern:brightening",
+        "day serum",
+        "glowing skin",
+        "k beauty products",
+        "korean beauty products",
+        "korean serum",
+        "korean skin care",
+        "korean skin care routine",
+        "korean skincare",
+        "vc serum",
+        "vitamin c serum",
+        "vitamin c with hyaluronic acid"
+      ],
+      "concerns": [
+        "anti-aging",
+        "brightening"
+      ],
+      "isBundle": false,
+      "isBestseller": true,
+      "variantId": 47421350707355,
+      "price": 3799,
+      "compareAtPrice": 4599,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals-Day-Glow-Serum-2oz.jpg?v=1787005394",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Day Glow Vitamin C Serum — 2oz"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/02-seoulceuticals-vitamin-c-serum-korean-2oz-skin-benefits_jpg_676bd8d3-18d5-4448-b7ee-36f91471e272.jpg?v=1761069188",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Day Glow Vitamin C Serum — 2oz"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/03-seoulceuticals-vitamin-c-serum-korean-2oz-before-after_jpg.jpg?v=1761069188",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Day Glow Vitamin C Serum — 2oz"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/04-seoulceuticals-vitamin-c-serum-korean-2oz-popular-collage_jpg.jpg?v=1761069188",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Day Glow Vitamin C Serum — 2oz"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/05-seoulceuticals-vitamin-c-serum-korean-2oz-badges-v1_jpg.jpg?v=1761069188",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Day Glow Vitamin C Serum — 2oz"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/06-seoulceuticals-vitamin-c-serum-korean-2oz-ingredients-v2_jpg.jpg?v=1761069188",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Day Glow Vitamin C Serum — 2oz"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/07-seoulceuticals-vitamin-c-serum-korean-2oz-key-ingredients_jpg.jpg?v=1761069188",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Day Glow Vitamin C Serum — 2oz"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/08-seoulceuticals-vitamin-c-serum-korean-2oz-ferulic-acid_jpg.jpg?v=1761069188",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Day Glow Vitamin C Serum — 2oz"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/09-seoulceuticals-vitamin-c-serum-korean-2oz-steps-routine_jpg.jpg?v=1761069189",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Day Glow Vitamin C Serum — 2oz"
+        }
+      ],
+      "description": "Our cult-favourite Day Glow vitamin C serum in a double-size 2 oz bottle — twice the product, for anyone who uses it every morning. The same synergistic blend of vitamin C, vitamin E and ferulic acid that fades sun spots and gives skin an instantly visible glow. Key ingredients 20% Vitamin C solution — brightens, smooths tone and protects against free radicals. Ferulic acid — stabilises the vitamin C for a longer shelf life. Vitamin E — boosts efficacy, supporting collagen and skin repair. Hyaluronic acid — keeps skin plump and comfortable.",
+      "rating": {
+        "value": 5,
+        "count": 1
+      },
+      "url": "https://seoulceuticals.com/products/day-glow-vitamin-c-serum-2oz"
+    },
+    {
+      "handle": "large-4oz-snail-mucin-moisturizer-cream",
+      "title": "Large 4oz 97.5% Snail Mucin Moisturizer Cream Korean Skin Care",
+      "type": "Moisturizer",
+      "tags": [
+        "anti aging",
+        "anti wrinkle",
+        "bestseller",
+        "concern:anti-aging",
+        "concern:hydration",
+        "cruelty free",
+        "k beauty products",
+        "korean beauty products",
+        "korean cream",
+        "korean moisturizer",
+        "korean skin care",
+        "korean skin care routine",
+        "korean skincare",
+        "snail cream",
+        "snail repair cream"
+      ],
+      "concerns": [
+        "anti-aging",
+        "hydration"
+      ],
+      "isBundle": false,
+      "isBestseller": true,
+      "variantId": 47421157703835,
+      "price": 3799,
+      "compareAtPrice": 4399,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SRC-4oz.jpg?v=1761069047",
+          "width": 2000,
+          "height": 2000,
+          "alt": "Large 4oz 97.5% Snail Mucin Moisturizer Cream Korean Skin Care"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/02-seoulceuticals-snail-mucin-cream-moisturizer-4oz-skin-benefits_jpg.jpg?v=1761069047",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Large 4oz 97.5% Snail Mucin Moisturizer Cream Korean Skin Care"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/03-seoulceuticals-snail-mucin-cream-moisturizer-4oz-before-after_jpg.jpg?v=1761069047",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Large 4oz 97.5% Snail Mucin Moisturizer Cream Korean Skin Care"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/04-seoulceuticals-snail-mucin-cream-moisturizer-4oz-korean-badges.jpg?v=1761069047",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Large 4oz 97.5% Snail Mucin Moisturizer Cream Korean Skin Care"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/05-seoulceuticals-snail-mucin-cream-moisturizer-4oz-ingredients_jpg.jpg?v=1761069047",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Large 4oz 97.5% Snail Mucin Moisturizer Cream Korean Skin Care"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/06-seoulceuticals-snail-mucin-cream-moisturizer-4oz-one-sold_jpg.jpg?v=1761069047",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Large 4oz 97.5% Snail Mucin Moisturizer Cream Korean Skin Care"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/07-seoulceuticals-snail-mucin-cream-moisturizer-4oz-clean-beauty_jpg.jpg?v=1761069047",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Large 4oz 97.5% Snail Mucin Moisturizer Cream Korean Skin Care"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/08-seoulceuticals-snail-mucin-cream-moisturizer-4oz-key-ingredients_jpg.jpg?v=1761069047",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Large 4oz 97.5% Snail Mucin Moisturizer Cream Korean Skin Care"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/09-seoulceuticals-snail-mucin-cream-moisturizer-4oz-steps-routine_jpg.jpg?v=1761069047",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Large 4oz 97.5% Snail Mucin Moisturizer Cream Korean Skin Care"
+        }
+      ],
+      "description": "Our bestselling snail repair cream in a double-size 4 oz jar — the best value for anyone using it daily, morning and night. The same multifunctional anti-ageing formula that made this one of the most recognisable products in K-beauty. Key ingredients 97.5% concentration snail filtrate — hydrates, softens the look of wrinkles and improves skin tone. Vitamin B5 — supports barrier function and skin cell regeneration. Shea butter and avocado oil — deeply nourish dry skin. Green tea and centella asiatica — calm and protect. Retinol — in the formula: wear sunscreen every morning and do not stack it with another retinol.",
+      "rating": {
+        "value": 5,
+        "count": 1
+      },
+      "url": "https://seoulceuticals.com/products/large-4oz-snail-mucin-moisturizer-cream"
+    },
+    {
+      "handle": "all-in-one-k-beauty-5-step-routine",
+      "title": "All-in-One K Beauty 5-Step Routine",
+      "type": "Bundle",
+      "tags": [
+        "concern:anti-aging",
+        "concern:brightening",
+        "k beauty products",
+        "korean skin care routine",
+        "korean skincare"
+      ],
+      "concerns": [
+        "anti-aging",
+        "brightening"
+      ],
+      "isBundle": true,
+      "isBestseller": false,
+      "variantId": 47292372680859,
+      "price": 10891,
+      "compareAtPrice": 14195,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/new-bundle-white.jpg?v=1759437978",
+          "width": 3000,
+          "height": 3000,
+          "alt": "All-in-One K Beauty 5-Step Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/02_seoulceuticals_vitamin_c_serum_korean_1oz_skin_benefits_jpg.jpg?v=1759483408",
+          "width": 3000,
+          "height": 3000,
+          "alt": "All-in-One K Beauty 5-Step Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/03-seoulceuticals-vitamin-c-serum-korean-1oz-before-after.jpg?v=1759487574",
+          "width": 3000,
+          "height": 3000,
+          "alt": "All-in-One K Beauty 5-Step Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/06_seoulceuticals_vitamin_c_serum_korean_1oz_ingredients_v2_jpg.jpg?v=1759487574",
+          "width": 3000,
+          "height": 3000,
+          "alt": "All-in-One K Beauty 5-Step Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/05-seoulceuticals-vitamin-c-serum-korean-1oz-badges_jpg.jpg?v=1759487574",
+          "width": 3000,
+          "height": 3000,
+          "alt": "All-in-One K Beauty 5-Step Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/seoulceuticals_snail_mucin_cream_moisturizer_korean_badges_jpg.jpg?v=1759501435",
+          "width": 3000,
+          "height": 3000,
+          "alt": "All-in-One K Beauty 5-Step Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/seoulceuticals_snail_mucin_cream_moisturizer_korean_ingredients.jpg?v=1759501435",
+          "width": 3000,
+          "height": 3000,
+          "alt": "All-in-One K Beauty 5-Step Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/seoulceuticals_snail_mucin_cream_moisturizer_korean_clean_beauty.jpg?v=1759515149",
+          "width": 3000,
+          "height": 3000,
+          "alt": "All-in-One K Beauty 5-Step Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/seoulceuticals-snail-turmeric-mask-popular-collage_jpg.jpg?v=1759515149",
+          "width": 3000,
+          "height": 3000,
+          "alt": "All-in-One K Beauty 5-Step Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/09_seoulceuticals_vitamin_c_serum_korean_2oz_steps_routine_jpg.jpg?v=1759515149",
+          "width": 3000,
+          "height": 3000,
+          "alt": "All-in-One K Beauty 5-Step Routine"
+        }
+      ],
+      "description": "Everything you need for a flawless K-Beauty glow. Designed for maximum effectiveness, this six-product regimen delivers impressive results for all skin types. Be prepared to field compliments from Day One.",
+      "rating": null,
+      "url": "https://seoulceuticals.com/products/all-in-one-k-beauty-5-step-routine"
+    },
+    {
+      "handle": "ultimate-k-beauty-routine",
+      "title": "Ultimate K-Beauty Routine",
+      "type": "Bundle",
+      "tags": [
+        "concern:anti-aging",
+        "concern:brightening",
+        "concern:hydration",
+        "k beauty products",
+        "korean skin care routine",
+        "korean skincare"
+      ],
+      "concerns": [
+        "anti-aging",
+        "brightening",
+        "hydration"
+      ],
+      "isBundle": true,
+      "isBestseller": false,
+      "variantId": 47263028707483,
+      "price": 12390,
+      "compareAtPrice": 16194,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/image002.jpg?v=1758973239",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultimate K-Beauty Routine"
+        }
+      ],
+      "description": "Unlock the secret to a flawless, youthful complexion with our most comprehensive and effective K-beauty regimen. Based on the innovative skincare traditions of Korea, and powered by ingredients from Korea, this streamlined 7-step routine is meticulously designed to work in harmony, with each product building on the last to deliver unparalleled results. It distills the core principles of K-beauty into a modern, effective regimen that's easy to follow. From deep cleansing and clarifying to intense hydration and anti-aging protection, this collection addresses every major skin concern to reveal a brighter, smoother, and more radiant you. The 7-Step Ultimate K-Beauty Regimen Step 1: Ultra Glow Turmeric Face Wash Cleansing is the foundational step for removing impurities, oil, and makeup. Our Ultra Glow Turmeric Face Wash uses turmeric and hemp seed oil to cleanse deeply without stripping your skin's natural moisture, making it the perfect start to a healthy, balanced complexion. Step 2: Exfoliating Toner Exfoliants and toners work to unclog pores, remove dead skin cells, and prep your skin for better absorption. Our Exfoliating Toner combines salicylic acid and tea tree oil to gently exfoliate and balance hydration in one simple step, revealing a brighter complexion. Step 3: Marine Mineral Plump and Glow Essence Essences are lightweight but potent hydrators that prep skin for what's next. Our Marine Mineral Plump and Glow Essence uses a blend of marine minerals, cucumber, and tamarind extract to plump and hydrate your skin, giving you a supple, dewy glow. Step 4: Day Glow Serum Serums are ultimate skin perfectors that target specific concerns. Our powerful Day Glow Serum uses potent Vitamin C to help fade sun spots, reduce the appearance of fine lines, and clear up acne, leaving you with a healthier, more youthful complexion. Step 5: Snail Mucin & Turmeric Anti-Aging Mask Masks deliver a concentrated dose of ingredients to hydrate, brighten, and firm your skin. Our Snail Mucin & Turmeric Anti-Aging Mask revives tired skin and promotes collagen production for a visibly more youthful look. Step 6: Snail Eye Cream The delicate skin around your eyes needs a specialized treatment, gentle yet effective. Our Snail Eye Cream uses a high concentration of snail mucin, Centella Asiatica, and Vitamin C to reduce wrinkles and crow's feet, giving you brighter, more youthful-looking eyes. Step 7: Ultra Glow Turmeric Face Cream Moisturizers deliver lasting hydration, strengthen your skin barrier, and seal in all the steps before. Our Ultra Glow Turmeric Face Cream uses turmeric, hyaluronic acid, and gentle exfoliants to smooth texture, banish dullness, and reveal a radiant complexion.",
+      "rating": null,
+      "url": "https://seoulceuticals.com/products/ultimate-k-beauty-routine"
+    },
+    {
+      "handle": "glass-skin-routine",
+      "title": "Glass Skin Routine",
+      "type": "Bundle",
+      "tags": [
+        "concern:hydration"
+      ],
+      "concerns": [
+        "hydration"
+      ],
+      "isBundle": true,
+      "isBestseller": false,
+      "variantId": 45400954667163,
+      "price": 7694,
+      "compareAtPrice": 10047,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/26.jpg?v=1724173412",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Glass Skin Routine"
+        }
+      ],
+      "description": "Smooth, translucent, with a lit-from-within glow – these are the hallmarks of the Korean skincare ideal of “glass skin.” If you think it takes a rigorous, 10-step skincare regimen to obtain this kind of perfection, think again. This simple four-step routine will deliver a glass skin glow that will have your friends asking for your secret.",
+      "rating": null,
+      "url": "https://seoulceuticals.com/products/glass-skin-routine"
+    },
+    {
+      "handle": "serum-envy-trio",
+      "title": "Serum Envy Trio",
+      "type": "Bundle",
+      "tags": [
+        "concern:anti-aging",
+        "concern:brightening"
+      ],
+      "concerns": [
+        "anti-aging",
+        "brightening"
+      ],
+      "isBundle": true,
+      "isBestseller": false,
+      "variantId": 45400986779803,
+      "price": 5496,
+      "compareAtPrice": 7047,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/sc-serum-envy-trio_18655d5d-2c87-49dc-9a70-32028e1bc975.jpg?v=1789076712",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Serum Envy Trio"
+        }
+      ],
+      "description": "Introducing the ultimate anti-aging, glow-inducing serum trio. Combine these three advanced serums in your regimen to multiply benefits and see visible results in record time.",
+      "rating": null,
+      "url": "https://seoulceuticals.com/products/serum-envy-trio"
+    },
+    {
+      "handle": "k-beauty-variety-mask-set",
+      "title": "K-Beauty Variety Mask Set",
+      "type": "Bundle",
+      "tags": [
+        "concern:hydration",
+        "concern:soothing"
+      ],
+      "concerns": [
+        "hydration",
+        "soothing"
+      ],
+      "isBundle": true,
+      "isBestseller": false,
+      "variantId": 45400935268507,
+      "price": 6796,
+      "compareAtPrice": 8796,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/sc-k-beauty-variety-mask-set_55b8b6ed-3dc3-42c9-b58a-6b7df21ba964.jpg?v=1789076711",
+          "width": 3000,
+          "height": 3000,
+          "alt": "K-Beauty Variety Mask Set"
+        }
+      ],
+      "description": "Want to step up your skincare game while introducing a little luxurious pampering? Add a K-Beauty mask to your regimen and see the results accrue. We’ve assembled the perfect assortment to treat your most pressing skincare concerns, and deliver balanced, youthful-looking skin.",
+      "rating": {
+        "value": 4,
+        "count": 1
+      },
+      "url": "https://seoulceuticals.com/products/k-beauty-variety-mask-set"
+    },
+    {
+      "handle": "sensitive-skin-routine",
+      "title": "Sensitive Skin Routine",
+      "type": "Bundle",
+      "tags": [
+        "concern:soothing"
+      ],
+      "concerns": [
+        "soothing"
+      ],
+      "isBundle": true,
+      "isBestseller": false,
+      "variantId": 45384150352027,
+      "price": 7100,
+      "compareAtPrice": 9347,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SensitiveSkin_Studio2_Fixed.png?v=1792437903",
+          "width": 4096,
+          "height": 4096,
+          "alt": "Sensitive Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SensitiveSkin_01_Hero.jpg?v=1792265384",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Sensitive Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SensitiveSkin_02_What_It_Does.jpg?v=1792265384",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Sensitive Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SensitiveSkin_03_Whats_Inside.jpg?v=1792265384",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Sensitive Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SensitiveSkin_04_How_To_Use.jpg?v=1792265384",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Sensitive Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SensitiveSkin_05_Textures.jpg?v=1792265384",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Sensitive Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SensitiveSkin_06_Clean_Conscious.jpg?v=1792265384",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Sensitive Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SensitiveSkin_07_What_Is_Centella.jpg?v=1792265384",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Sensitive Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SensitiveSkin_08_Comparison.jpg?v=1792265384",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Sensitive Skin Routine"
+        }
+      ],
+      "description": "Sensitive skin needs special care and attention to look and feel its best. This gentle but results-oriented regimen delivers numerous skin boosting and anti-aging benefits while supporting the skin barrier.",
+      "rating": {
+        "value": 4.8,
+        "count": 161
+      },
+      "url": "https://seoulceuticals.com/products/sensitive-skin-routine"
+    },
+    {
+      "handle": "ultra-brightening-routine-for-dull-skin",
+      "title": "Dark Spot & Uneven Skin Tone Routine",
+      "type": "Bundle",
+      "tags": [
+        "concern:brightening"
+      ],
+      "concerns": [
+        "brightening"
+      ],
+      "isBundle": true,
+      "isBestseller": false,
+      "variantId": 45378727411867,
+      "price": 7100,
+      "compareAtPrice": 9697,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/DarkSpot_Studio2_Fixed.png?v=1792437463",
+          "width": 4096,
+          "height": 4096,
+          "alt": "Dark Spot & Uneven Skin Tone Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/DarkSpot_01_Hero.jpg?v=1792265324",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Dark Spot & Uneven Skin Tone Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/DarkSpot_02_What_It_Does.jpg?v=1792265324",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Dark Spot & Uneven Skin Tone Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/DarkSpot_03_Whats_Inside.jpg?v=1792265324",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Dark Spot & Uneven Skin Tone Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/DarkSpot_04_How_To_Use.jpg?v=1792265324",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Dark Spot & Uneven Skin Tone Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/DarkSpot_05_Textures.jpg?v=1792265324",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Dark Spot & Uneven Skin Tone Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/DarkSpot_06_Clean_Conscious.jpg?v=1792265324",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Dark Spot & Uneven Skin Tone Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/DarkSpot_07_What_Is_Kojic_Acid.jpg?v=1792265323",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Dark Spot & Uneven Skin Tone Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/DarkSpot_08_Comparison.jpg?v=1792265324",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Dark Spot & Uneven Skin Tone Routine"
+        }
+      ],
+      "description": "Dull skin is no match for this potent combination of turmeric, kojic acid and snail essence. This powerfully effective regimen works synergistically to bring back the glow in record time!",
+      "rating": {
+        "value": 4.4,
+        "count": 423
+      },
+      "url": "https://seoulceuticals.com/products/ultra-brightening-routine-for-dull-skin"
+    },
+    {
+      "handle": "day-night-complete-routine",
+      "title": "Day & Night Complete Routine",
+      "type": "Bundle",
+      "tags": [
+        "concern:anti-aging",
+        "concern:hydration"
+      ],
+      "concerns": [
+        "anti-aging",
+        "hydration"
+      ],
+      "isBundle": true,
+      "isBestseller": false,
+      "variantId": 45378678554779,
+      "price": 8992,
+      "compareAtPrice": 11595,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/sc-day-night-complete-routine_37b38e9e-a62b-4281-a35c-ad86e6d64a38.jpg?v=1789076691",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Day & Night Complete Routine"
+        }
+      ],
+      "description": "Take the guesswork out of your skincare routine. This regimen contains everything you need to deliver on the promise of healthier, more youthful looking skin. Ideal for all skin types, this stellar lineup delivers visible results quickly. Get glowing now!",
+      "rating": {
+        "value": 4,
+        "count": 3
+      },
+      "url": "https://seoulceuticals.com/products/day-night-complete-routine"
+    },
+    {
+      "handle": "simple-skin-brightening-routine",
+      "title": "Simple Skin Brightening Routine",
+      "type": "Bundle",
+      "tags": [
+        "concern:brightening"
+      ],
+      "concerns": [
+        "brightening"
+      ],
+      "isBundle": true,
+      "isBestseller": false,
+      "variantId": 45374872092827,
+      "price": 3698,
+      "compareAtPrice": 4748,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/sc-simple-skin-brightening-routine_f6349611-08d3-4e14-918d-bf947a60d9cf.jpg?v=1789076713",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Simple Skin Brightening Routine"
+        }
+      ],
+      "description": "This simple yet effective brightening regimen delivers glowing, even skin tone. Kojic acid leads an all-star cast of ingredients to fade unwanted dark spots, acne scars and other blemishes for more youthful, vibrant-looking skin.",
+      "rating": null,
+      "url": "https://seoulceuticals.com/products/simple-skin-brightening-routine"
+    },
+    {
+      "handle": "zombie-acne-kit",
+      "title": "Zombie Acne Kit",
+      "type": "Bundle",
+      "tags": [
+        "concern:acne-pores"
+      ],
+      "concerns": [
+        "acne-pores"
+      ],
+      "isBundle": true,
+      "isBestseller": false,
+      "variantId": 45374575771803,
+      "price": 3398,
+      "compareAtPrice": 4398,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/zmb1.jpg?v=1723569006",
+          "width": 2869,
+          "height": 2869,
+          "alt": "Zombie Acne Kit"
+        }
+      ],
+      "description": "Persistent acne that just won’t die can feel like something out of a horror movie. If you have breakouts that seem to “come back from the dead,” this two-step routine will vanquish them once and for all.",
+      "rating": {
+        "value": 5,
+        "count": 1
+      },
+      "url": "https://seoulceuticals.com/products/zombie-acne-kit"
+    },
+    {
+      "handle": "oily-skin-routine",
+      "title": "Oily Skin Routine",
+      "type": "Bundle",
+      "tags": [
+        "concern:acne-pores"
+      ],
+      "concerns": [
+        "acne-pores"
+      ],
+      "isBundle": true,
+      "isBestseller": false,
+      "variantId": 45374532321435,
+      "price": 5699,
+      "compareAtPrice": 7197,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/OilySkin_Studio2_Fixed.png?v=1792435037",
+          "width": 4096,
+          "height": 4096,
+          "alt": "Oily Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/OilySkin_01_Hero.jpg?v=1792265205",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Oily Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/OilySkin_02_What_It_Does.jpg?v=1792265205",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Oily Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/OilySkin_03_Whats_Inside.jpg?v=1792265205",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Oily Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/OilySkin_04_How_To_Use.jpg?v=1792265205",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Oily Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/OilySkin_05_Textures.jpg?v=1792265205",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Oily Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/OilySkin_06_Clean_Conscious.jpg?v=1792265205",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Oily Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/OilySkin_07_What_Is_Willow_Bark.jpg?v=1792265205",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Oily Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/OilySkin_08_Comparison.jpg?v=1792265205",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Oily Skin Routine"
+        }
+      ],
+      "description": "Take control of oily skin with this powerful yet simple regimen. When used twice daily, this three-product combo delivers a balanced, clear, radiant complexion.",
+      "rating": {
+        "value": 4.5,
+        "count": 419
+      },
+      "url": "https://seoulceuticals.com/products/oily-skin-routine"
+    },
+    {
+      "handle": "combo-skin-routine",
+      "title": "Combo Skin Routine",
+      "type": "Bundle",
+      "tags": [
+        "concern:anti-aging",
+        "concern:hydration"
+      ],
+      "concerns": [
+        "anti-aging",
+        "hydration"
+      ],
+      "isBundle": true,
+      "isBestseller": false,
+      "variantId": 45374506270875,
+      "price": 5699,
+      "compareAtPrice": 6947,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/ComboSkin_Studio_Fixed.png?v=1792436285",
+          "width": 4096,
+          "height": 4096,
+          "alt": "Combo Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/ComboSkin_01_Hero.jpg?v=1792265271",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Combo Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/ComboSkin_02_What_It_Does.jpg?v=1792265271",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Combo Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/ComboSkin_03_Whats_Inside.jpg?v=1792265270",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Combo Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/ComboSkin_04_How_To_Use.jpg?v=1792265271",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Combo Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/ComboSkin_05_Textures.jpg?v=1792265271",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Combo Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/ComboSkin_06_Clean_Conscious.jpg?v=1792265271",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Combo Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/ComboSkin_07_What_Is_Ginseng.jpg?v=1792265271",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Combo Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/ComboSkin_08_Comparison.jpg?v=1792265270",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Combo Skin Routine"
+        }
+      ],
+      "description": "Combination skin can be challenging, but this simple regimen unlocks the key to a happy, balanced complexion. Use morning and evening for impressive, visible results.",
+      "rating": {
+        "value": 4.8,
+        "count": 159
+      },
+      "url": "https://seoulceuticals.com/products/combo-skin-routine"
+    },
+    {
+      "handle": "glow-to-sleep-routine",
+      "title": "Glow to Sleep Routine",
+      "type": "Bundle",
+      "tags": [
+        "concern:anti-aging"
+      ],
+      "concerns": [
+        "anti-aging"
+      ],
+      "isBundle": true,
+      "isBestseller": false,
+      "variantId": 45370959233179,
+      "price": 7095,
+      "compareAtPrice": 9146,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/sc-glow-to-sleep-routine_4e220168-0ef6-4a23-925e-a572be3577b6.jpg?v=1789076711",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Glow to Sleep Routine"
+        }
+      ],
+      "description": "This effective nighttime regimen works to repair and restore skin while you sleep. Start tonight and wake up to brighter, healthier, more youthful looking skin in the morning.",
+      "rating": null,
+      "url": "https://seoulceuticals.com/products/glow-to-sleep-routine"
+    },
+    {
+      "handle": "dry-skin-routine",
+      "title": "Dry Skin Routine",
+      "type": "Bundle",
+      "tags": [
+        "concern:hydration"
+      ],
+      "concerns": [
+        "hydration"
+      ],
+      "isBundle": true,
+      "isBestseller": false,
+      "variantId": 45370952515739,
+      "price": 5699,
+      "compareAtPrice": 6998,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/DrySkin_Studio3_Fixed.png?v=1792436975",
+          "width": 4096,
+          "height": 4096,
+          "alt": "Dry Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/DrySkin_01_Hero.jpg?v=1792265160",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Dry Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/DrySkin_02_What_It_Does.jpg?v=1792265160",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Dry Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/DrySkin_03_Whats_Inside.jpg?v=1792265160",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Dry Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/DrySkin_04_How_To_Use.jpg?v=1792265160",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Dry Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/DrySkin_05_Textures.jpg?v=1792265160",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Dry Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/DrySkin_06_Clean_Conscious.jpg?v=1792265159",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Dry Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/DrySkin_07_What_Is_Snail_Mucin.jpg?v=1792265159",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Dry Skin Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/DrySkin_08_Comparison.jpg?v=1792265160",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Dry Skin Routine"
+        }
+      ],
+      "description": "Say goodbye to dry, dull skin with this advanced K-Beauty regimen. Deeply replenishing ingredients work synergistically to rejuvenate and restore dewy, youthful looking skin.",
+      "rating": {
+        "value": 4.4,
+        "count": 190
+      },
+      "url": "https://seoulceuticals.com/products/dry-skin-routine"
+    },
+    {
+      "handle": "snail-mucin-glow-kit",
+      "title": "Snail Mucin Glow Kit",
+      "type": "Bundle",
+      "tags": [
+        "concern:anti-aging",
+        "concern:hydration"
+      ],
+      "concerns": [
+        "anti-aging",
+        "hydration"
+      ],
+      "isBundle": true,
+      "isBestseller": false,
+      "variantId": 45370912538779,
+      "price": 6994,
+      "compareAtPrice": 9046,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/sc-snail-mucin-glow-kit_a6037fd7-0e23-43e6-ba41-f7cb80166505.jpg?v=1789076689",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Snail Mucin Glow Kit"
+        }
+      ],
+      "description": "Discover the skincare secret of Korea’s most beautiful women. This proven regimen harnesses the power of snail mucin to take your glow to the next level. You’ll see brighter, healthier, more youthful looking skin within weeks.",
+      "rating": null,
+      "url": "https://seoulceuticals.com/products/snail-mucin-glow-kit"
+    },
+    {
+      "handle": "glow-on-a-budget-routine",
+      "title": "Glow On A Budget Routine",
+      "type": "Bundle",
+      "tags": [
+        "concern:anti-aging",
+        "concern:brightening"
+      ],
+      "concerns": [
+        "anti-aging",
+        "brightening"
+      ],
+      "isBundle": true,
+      "isBestseller": false,
+      "variantId": 45370907820187,
+      "price": 3596,
+      "compareAtPrice": 4598,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/sc-glow-on-a-budget-routine_5499694e-1815-4f2f-89d6-a0466dac21be.jpg?v=1789076692",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Glow On A Budget Routine"
+        }
+      ],
+      "description": "Get a million-dollar glow without breaking the bank. These two highly effective products combine to produce impressive results without a huge price tag. Ideal for all skin types.",
+      "rating": null,
+      "url": "https://seoulceuticals.com/products/glow-on-a-budget-routine"
+    },
+    {
+      "handle": "simple-k-beauty-routine",
+      "title": "Simple K-Beauty Routine",
+      "type": "Bundle",
+      "tags": [
+        "concern:anti-aging",
+        "concern:brightening"
+      ],
+      "concerns": [
+        "anti-aging",
+        "brightening"
+      ],
+      "isBundle": true,
+      "isBestseller": false,
+      "variantId": 45370904346779,
+      "price": 5495,
+      "compareAtPrice": 7047,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/sc-simple-k-beauty-routine_6cfa3588-8bff-4563-852b-960f83bac1fe.jpg?v=1789076713",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Simple K-Beauty Routine"
+        }
+      ],
+      "description": "Harness the very best of K-Beauty with this simple, yet effective, skincare regimen. Three easy steps are all it takes to reveal more youthful, glowing skin.",
+      "rating": null,
+      "url": "https://seoulceuticals.com/products/simple-k-beauty-routine"
+    },
+    {
+      "handle": "k-beauty-power-trio",
+      "title": "K-Beauty Power Trio",
+      "type": "Bundle",
+      "tags": [
+        "concern:anti-aging",
+        "concern:hydration"
+      ],
+      "concerns": [
+        "anti-aging",
+        "hydration"
+      ],
+      "isBundle": true,
+      "isBestseller": false,
+      "variantId": 45370868039835,
+      "price": 5394,
+      "compareAtPrice": 7098,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/K-BeautyPowerTriov1.3.jpg?v=1788558758",
+          "width": 3000,
+          "height": 3000,
+          "alt": "K-Beauty Power Trio"
+        }
+      ],
+      "description": "These K-Beauty powerhouses punch above their weight when it comes to delivering more youthful looking, glowing skin. Designed for all skin types, this simple 3-step routine packs an antioxidant punch that takes down tired, aging skin and reveals a brighter, healthier complexion.",
+      "rating": null,
+      "url": "https://seoulceuticals.com/products/k-beauty-power-trio"
+    },
+    {
+      "handle": "day-night-simple-routine",
+      "title": "Day & Night Simple Routine",
+      "type": "Bundle",
+      "tags": [
+        "concern:anti-aging",
+        "concern:hydration"
+      ],
+      "concerns": [
+        "anti-aging",
+        "hydration"
+      ],
+      "isBundle": true,
+      "isBestseller": false,
+      "variantId": 45356197642395,
+      "price": 5495,
+      "compareAtPrice": 7047,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/sc-day-night-simple-routine_c4f7ef04-df7d-4bc8-8884-e8a16e6aaafa.jpg?v=1789076691",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Day & Night Simple Routine"
+        }
+      ],
+      "description": "Great skin care doesn’t have to be complicated. This easy-to-use regimen delivers everything you need to ensure healthy, youthful, glowing skin. Ideal for all skin types.",
+      "rating": {
+        "value": 5,
+        "count": 1
+      },
+      "url": "https://seoulceuticals.com/products/day-night-simple-routine"
+    },
+    {
+      "handle": "day-night-serum-duo",
+      "title": "Day & Night Serum Duo",
+      "type": "Bundle",
+      "tags": [
+        "concern:anti-aging",
+        "concern:hydration"
+      ],
+      "concerns": [
+        "anti-aging",
+        "hydration"
+      ],
+      "isBundle": true,
+      "isBestseller": false,
+      "variantId": 45361451597979,
+      "price": 3697,
+      "compareAtPrice": 4748,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/sc-day-night-serum-duo_03cebba9-1172-44cb-a7ec-e56f493dba31.jpg?v=1789076691",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Day & Night Serum Duo"
+        }
+      ],
+      "description": "These two potent serums have you covered for day and night restoration and glow. Simple and effective – and ideal for all skin types - you’ll see noticeable results within a few weeks of regular use.",
+      "rating": {
+        "value": 5,
+        "count": 1
+      },
+      "url": "https://seoulceuticals.com/products/day-night-serum-duo"
+    },
+    {
+      "handle": "dark-spot-routine",
+      "title": "Dark Spot Routine",
+      "type": "Bundle",
+      "tags": [
+        "concern:brightening"
+      ],
+      "concerns": [
+        "brightening"
+      ],
+      "isBundle": true,
+      "isBestseller": false,
+      "variantId": 45356109594779,
+      "price": 5597,
+      "compareAtPrice": 7197,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/DarkSpotRoutinev1.3.jpg?v=1788558848",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Dark Spot Routine"
+        }
+      ],
+      "description": "This specialized regimen harnesses the lightening ability of multiple proven ingredients to fade unwanted dark spots and even skin tone. With regular use, the appearance of aging, scarred or sun damaged skin diminishes as brighter, healthier-looking skin is revealed.",
+      "rating": {
+        "value": 5,
+        "count": 1
+      },
+      "url": "https://seoulceuticals.com/products/dark-spot-routine"
+    },
+    {
+      "handle": "anti-aging-37-routine",
+      "title": "Anti-Aging 37+ Routine",
+      "type": "Bundle",
+      "tags": [
+        "concern:anti-aging"
+      ],
+      "concerns": [
+        "anti-aging"
+      ],
+      "isBundle": true,
+      "isBestseller": false,
+      "variantId": 45355966202011,
+      "price": 7795,
+      "compareAtPrice": 9946,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/Anti-Aging37_Routine1.3.jpg?v=1788557829",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Anti-Aging 37+ Routine"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/17.png?v=1729017349",
+          "width": 1080,
+          "height": 1080,
+          "alt": "Anti-Aging 37+ Routine"
+        }
+      ],
+      "description": "After our mid-30s, collagen production slows down and skin needs a robust anti-aging regimen to look its best, now and into the future. The proven, active ingredients in this product combination support overall skin health while delivering on the promise of more youthful looking skin.",
+      "rating": {
+        "value": 3.8,
+        "count": 4
+      },
+      "url": "https://seoulceuticals.com/products/anti-aging-37-routine"
+    },
+    {
+      "handle": "anti-aging-20-routine",
+      "title": "Anti-Aging 20+ Routine",
+      "type": "Bundle",
+      "tags": [
+        "concern:anti-aging"
+      ],
+      "concerns": [
+        "anti-aging"
+      ],
+      "isBundle": true,
+      "isBestseller": false,
+      "variantId": 45355846566043,
+      "price": 7294,
+      "compareAtPrice": 9346,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/sc-anti-aging-20-routine_5ac394ee-65d4-42dd-9f24-7926902125c7.jpg?v=1789076690",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Anti-Aging 20+ Routine"
+        }
+      ],
+      "description": "",
+      "rating": {
+        "value": 5,
+        "count": 1
+      },
+      "url": "https://seoulceuticals.com/products/anti-aging-20-routine"
+    },
+    {
+      "handle": "miracle-clear-snail-mucin-cleanser",
+      "title": "Miracle Clear Snail Mucin Cleanser",
+      "type": "Cleanser",
+      "tags": [
+        "acne",
+        "acne treatment",
+        "concern:acne-pores",
+        "Miracle Clear Cleanser"
+      ],
+      "concerns": [
+        "acne-pores"
+      ],
+      "isBundle": false,
+      "isBestseller": false,
+      "variantId": 43915542921371,
+      "price": 1799,
+      "compareAtPrice": 2099,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals-Miracle-Clear-Cleanser.jpg?v=1787014020",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Miracle Clear Snail Mucin Cleanser"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/Miracle_Clear_Cleanser_Detail.png?v=1765465217",
+          "width": 1080,
+          "height": 1080,
+          "alt": "Miracle Clear Snail Mucin Cleanser"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/PGA-icons_d00a042f-2d3c-4b7a-a1ad-7fd63af9c37d.jpg?v=1765465217",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Miracle Clear Snail Mucin Cleanser"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/v7.jpg?v=1765465217",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Miracle Clear Snail Mucin Cleanser"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/MCC-kiss.jpg?v=1765465217",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Miracle Clear Snail Mucin Cleanser"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/nls1.jpg?v=1765465217",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Miracle Clear Snail Mucin Cleanser"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/throw-main.jpg?v=1765465217",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Miracle Clear Snail Mucin Cleanser"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/multiple.jpg?v=1765465217",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Miracle Clear Snail Mucin Cleanser"
+        }
+      ],
+      "description": "A powerful blend of snail mucin, natural salicylic acid and tea tree extract. This face wash is designed to address acne at its root, providing you with clear, radiant skin — gentle enough for twice-daily use. Key ingredients Natural salicylic acid — from willow bark, it penetrates deeply into pores, exfoliating dead skin cells and reducing sebum. Tea tree oil — a natural warrior against blemishes. Snail mucin — repairs while the acids work. Hemp seed oil and calendula — soothe so skin never feels stripped.",
+      "rating": {
+        "value": 5,
+        "count": 2
+      },
+      "url": "https://seoulceuticals.com/products/miracle-clear-snail-mucin-cleanser"
+    },
+    {
+      "handle": "ultra-brightening-kojic-acid-cream",
+      "title": "Ultra Brightening Kojic Acid Cream",
+      "type": "Moisturizer",
+      "tags": [
+        "bestseller",
+        "concern:brightening"
+      ],
+      "concerns": [
+        "brightening"
+      ],
+      "isBundle": false,
+      "isBestseller": true,
+      "variantId": 44021057519771,
+      "price": 1999,
+      "compareAtPrice": 2299,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals_Ultra_Brightening_Kojic_Acid_Cream.png?v=1786913489",
+          "width": 4096,
+          "height": 4096,
+          "alt": "Ultra Brightening Kojic Acid Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/09-seoulceuticals-kojic-acid-cream-2oz-cream-flatlay_jpg.jpg?v=1761935859",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Brightening Kojic Acid Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/02-seoulceuticals-kojic-acid-cream-2oz-skin-benefits_jpg.jpg?v=1761935859",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Brightening Kojic Acid Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/03-seoulceuticals-kojic-acid-cream-2oz-ingredients.jpgfinal.jpg?v=1761935859",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Brightening Kojic Acid Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/04-seoulceuticals-kojic-acid-cream-2oz-clean-beauty_jpg.jpg?v=1761935859",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Brightening Kojic Acid Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/05-seoulceuticals-kojic-acid-cream-2oz-badges_jpg.jpg?v=1761935859",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Brightening Kojic Acid Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/07-seoulceuticals-kojic-acid-cream-2oz-key-ingredients_jpg.jpg?v=1761935860",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Brightening Kojic Acid Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/07-seoulceuticals-kojic-acid-cream-2oz-steps-routine_jpg.jpg?v=1761935860",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Brightening Kojic Acid Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/08-seoulceuticals-kojic-acid-cream-2oz-happy-application_jpg.jpg?v=1761935859",
+          "width": 4096,
+          "height": 4096,
+          "alt": "Ultra Brightening Kojic Acid Cream"
+        }
+      ],
+      "description": "Natural brighteners and gentle exfoliants help even skin tone, reduce the look of hyperpigmentation and sun damage, and restore a brighter, more radiant complexion. The ideal nighttime partner to our Ultra Brightening Kojic Acid Serum. Key ingredients Kojic acid — targets dark spots and uneven pigment. Niacinamide — refines tone and supports the barrier. Licorice root and hexylresorcinol — boost the brightening effect. Shea butter and avocado oil — keep skin moisturised rather than stripped.",
+      "rating": {
+        "value": 3.9,
+        "count": 15
+      },
+      "url": "https://seoulceuticals.com/products/ultra-brightening-kojic-acid-cream"
+    },
+    {
+      "handle": "snail-mucin-essence",
+      "title": "Potent 97.5% Snail Mucin Essence",
+      "type": "Essence",
+      "tags": [
+        "anti aging",
+        "anti wrinkle",
+        "concern:hydration",
+        "concern:soothing",
+        "cruelty free",
+        "essence",
+        "facial toner",
+        "glowing skin",
+        "hyaluronic acid",
+        "k beauty products",
+        "korean beauty products",
+        "korean essence",
+        "korean skin care",
+        "korean skin care routine",
+        "korean skincare",
+        "korean toner",
+        "snail mucin",
+        "toner for face"
+      ],
+      "concerns": [
+        "hydration",
+        "soothing"
+      ],
+      "isBundle": false,
+      "isBestseller": false,
+      "variantId": 44017836654747,
+      "price": 1998,
+      "compareAtPrice": 2500,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals-Snail-Mucin-Essence.jpg?v=1787012839",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Potent 97.5% Snail Mucin Essence"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/Snail_Mucin_Essence_Detail.png?v=1765465078",
+          "width": 1080,
+          "height": 1080,
+          "alt": "Potent 97.5% Snail Mucin Essence"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/icons.jpg?v=1765465078",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Potent 97.5% Snail Mucin Essence"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/icons-water.jpg?v=1765465078",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Potent 97.5% Snail Mucin Essence"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/6-potent.jpg?v=1765465078",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Potent 97.5% Snail Mucin Essence"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/snailv2.jpg?v=1765465078",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Potent 97.5% Snail Mucin Essence"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/kifk_6d97cb3f-fc67-48b0-a2df-82c0efe93731.jpg?v=1765465078",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Potent 97.5% Snail Mucin Essence"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/throw_882d9a6d-d4d0-47b2-8b7d-1db5362ea279.jpg?v=1765465078",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Potent 97.5% Snail Mucin Essence"
+        }
+      ],
+      "description": "The only snail mucin spray mist in the world. This hydrating, prepping mist is an essential step in achieving that glowing, glass-skin finish — pat it into damp skin morning and night, before serums. Key ingredients 97.5% concentration snail secretion filtrate — repairs, soothes and deeply hydrates. Allantoin — softens and calms irritation. Cucumber and chamomile — comfort stressed skin. Korean ginseng and green tea — antioxidant support. Alcohol-free and fragrance-free.",
+      "rating": null,
+      "url": "https://seoulceuticals.com/products/snail-mucin-essence"
+    },
+    {
+      "handle": "ultra-retinol-serum",
+      "title": "Ultra Retinol Serum",
+      "type": "Serum",
+      "tags": [
+        "bestseller",
+        "concern:anti-aging",
+        "Retinol Serum",
+        "Retinol Snail Serum",
+        "Snail Retinol Serum",
+        "Ultra Retinol Serum"
+      ],
+      "concerns": [
+        "anti-aging"
+      ],
+      "isBundle": false,
+      "isBestseller": true,
+      "variantId": 43618946384027,
+      "price": 1999,
+      "compareAtPrice": 2299,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals-Ultra-Retinol-Night-Serum.jpg?v=1787004618",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Retinol Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/ULTRA_SNAIL_SERUM_21d003cd-dedd-4a58-99ea-5e9a4225adb2.png?v=1765490788",
+          "width": 1080,
+          "height": 1080,
+          "alt": "Ultra Retinol Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/02-seoulceuticals-korean-retinol-serum-1oz-skin-benefits_jpg.jpg?v=1761936168",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Retinol Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/03-seoulceuticals-korean-retinol-serum-1oz-ingredients_jpg.jpg?v=1761936167",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Retinol Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/04-seoulceuticals-korean-retinol-serum-1oz-clean-beauty_jpg.jpg?v=1761936167",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Retinol Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/05-seoulceuticals-korean-retinol-serum-1oz-badges_jpg.jpg?v=1761936167",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Retinol Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/06-seoulceuticals-korean-retinol-serum-1oz-dropper-benefits_jpg.jpg?v=1761936167",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Retinol Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/07-seoulceuticals-korean-retinol-serum-1oz-infused-snail-mucin_jpg.jpg?v=1761936167",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Retinol Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/08-seoulceuticals-korean-retinol-serum-1oz-key-ingredients_jpg.jpg?v=1761936167",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Retinol Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/09-seoulceuticals-korean-retinol-serum-1oz-steps-routine_jpg.jpg?v=1761936167",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Retinol Serum"
+        }
+      ],
+      "description": "Our answer to the surge in demand for gentle retinol, this uniquely effective serum boasts a formula never before seen in skincare. Unusually for a retinol product, it harmonises well with sensitive skin thanks to retinol liposomes, bakuchiol and skin-calming ingredients. Key ingredients Retinol liposomes — soften the delivery of retinol into the skin, preventing the irritation common on first use. Bakuchiol — a natural alternative to retinol, providing many of the anti-ageing benefits in a gentler form. 97.5% concentration snail filtrate — soothes and repairs alongside the actives. Hyaluronic acid — averts the dryness often associated with retinol use.",
+      "rating": {
+        "value": 4.6,
+        "count": 95
+      },
+      "url": "https://seoulceuticals.com/products/ultra-retinol-serum"
+    },
+    {
+      "handle": "gentle-retinol-cream",
+      "title": "Gentle Retinol Cream",
+      "type": "Moisturizer",
+      "tags": [
+        "bestseller",
+        "concern:anti-aging"
+      ],
+      "concerns": [
+        "anti-aging"
+      ],
+      "isBundle": false,
+      "isBestseller": true,
+      "variantId": 43693759922331,
+      "price": 1999,
+      "compareAtPrice": 2299,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals_Gentle_Retinol_Cream.png?v=1786913489",
+          "width": 4096,
+          "height": 4096,
+          "alt": "Gentle Retinol Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/04-seoulceuticals-korean-retinol-night-cream-2oz-clean-beauty_1__jpg.jpg?v=1761936059",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Gentle Retinol Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/05-seoulceuticals-korean-retinol-night-cream-2oz-cruelty-free_jpg.jpg?v=1761936059",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Gentle Retinol Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/06-seoulceuticals-korean-retinol-night-cream-2oz-clean-beauty_jpg.jpg?v=1761936059",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Gentle Retinol Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/07-seoulceuticals-korean-retinol-night-cream-2oz-key-ingredients_jpg.jpg?v=1761936059",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Gentle Retinol Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/08-seoulceuticals-korean-retinol-night-cream-2oz-steps-routine_jpg.jpg?v=1761936059",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Gentle Retinol Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/09-seoulceuticals-korean-retinol-night-cream-2oz-happy-application_jpg.jpg?v=1761936059",
+          "width": 4096,
+          "height": 4096,
+          "alt": "Gentle Retinol Cream"
+        }
+      ],
+      "description": "The first-ever formula to combine the power of retinol liposomes, snail mucin and niacinamide, working synergistically to enliven, hydrate and revitalise even sensitive skin. 83% naturally derived. Key ingredients Retinol liposomes — deliver retinol gradually to reduce the irritation common with first use. 97.5% concentration snail filtrate — repairs and hydrates alongside the retinol. Niacinamide — refines tone and supports the skin barrier. Shea butter and avocado oil — keep skin comfortable overnight.",
+      "rating": {
+        "value": 4.8,
+        "count": 64
+      },
+      "url": "https://seoulceuticals.com/products/gentle-retinol-cream"
+    },
+    {
+      "handle": "hyaluronic-acid-serum",
+      "title": "Hyaluronic Acid Serum",
+      "type": "Serum",
+      "tags": [
+        "concern:hydration"
+      ],
+      "concerns": [
+        "hydration"
+      ],
+      "isBundle": false,
+      "isBestseller": false,
+      "variantId": 43662241824923,
+      "price": 1899,
+      "compareAtPrice": 2199,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals-Hyaluronic-Acid-Serum.jpg?v=1787004618",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Hyaluronic Acid Serum"
+        }
+      ],
+      "description": "A better hyaluronic acid serum. Our mixed-molecular-weight formula combines multiple forms of HA to hydrate all layers of the skin's surface — unlike standard HA serums, which only sit on top. Key ingredients Mixed-weight hyaluronic acid — hyaluronic acid, hydrolyzed HA and sodium hyaluronate work at different depths. Polyglutamic acid — extends hydration on the surface. Tremella mushroom — a natural moisture magnet. Colloidal oatmeal — calms tight, dry skin.",
+      "rating": {
+        "value": 4,
+        "count": 1
+      },
+      "url": "https://seoulceuticals.com/products/hyaluronic-acid-serum"
+    },
+    {
+      "handle": "3-polyglutamic-acid-serum",
+      "title": "3% Polyglutamic Acid Serum",
+      "type": "Serum",
+      "tags": [
+        "Centella Asiatica",
+        "cica",
+        "cica serum",
+        "concern:hydration",
+        "PGA Serum",
+        "Polyglutamic Acid",
+        "Polyglutamic Acid Serum"
+      ],
+      "concerns": [
+        "hydration"
+      ],
+      "isBundle": false,
+      "isBestseller": false,
+      "variantId": 43620940775579,
+      "price": 1895,
+      "compareAtPrice": 2199,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals-Polyglutamic-Acid-Serum.jpg?v=1787005394",
+          "width": 3000,
+          "height": 3000,
+          "alt": "3% Polyglutamic Acid Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/PGA-icons.jpg?v=1696370899",
+          "width": 3000,
+          "height": 3000,
+          "alt": "3% Polyglutamic Acid Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/leaves.jpg?v=1696370896",
+          "width": 3000,
+          "height": 3000,
+          "alt": "3% Polyglutamic Acid Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/Chebula-leaves.jpg?v=1696370895",
+          "width": 3000,
+          "height": 3000,
+          "alt": "3% Polyglutamic Acid Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/floating.jpg?v=1696370897",
+          "width": 3000,
+          "height": 3000,
+          "alt": "3% Polyglutamic Acid Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/kojicdrops.jpg?v=1696370900",
+          "width": 3000,
+          "height": 3000,
+          "alt": "3% Polyglutamic Acid Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/PGA-kiss-text.jpg?v=1696370895",
+          "width": 3000,
+          "height": 3000,
+          "alt": "3% Polyglutamic Acid Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/bottles-on-floor.jpg?v=1696370895",
+          "width": 3000,
+          "height": 3000,
+          "alt": "3% Polyglutamic Acid Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/kifk_0fcd0cd4-e535-4cac-995a-5db7baf26702.jpg?v=1696370897",
+          "width": 3000,
+          "height": 3000,
+          "alt": "3% Polyglutamic Acid Serum"
+        }
+      ],
+      "description": "Derived from fermented soybeans, polyglutamic acid is a potent hydrator — it locks in moisture so skin stays supple and radiant throughout the day. Composed of 97% naturally derived ingredients, it layers beautifully under other serums and makeup. Key ingredients 3% polyglutamic acid — holds even more moisture than hyaluronic acid alone. Triple hyaluronic complex — hydrates at multiple depths. Tremella mushroom — a plant-based humectant that keeps skin dewy. Propolis, royal jelly and honey — nourish and soften.",
+      "rating": null,
+      "url": "https://seoulceuticals.com/products/3-polyglutamic-acid-serum"
+    },
+    {
+      "handle": "miracle-clear-skin-serum",
+      "title": "Miracle Clear Skin Serum",
+      "type": "Serum",
+      "tags": [
+        "acne",
+        "Acne Serum",
+        "acne treatment",
+        "concern:acne-pores",
+        "Miracle Clear Serum"
+      ],
+      "concerns": [
+        "acne-pores"
+      ],
+      "isBundle": false,
+      "isBestseller": false,
+      "variantId": 43620937957531,
+      "price": 1999,
+      "compareAtPrice": 2299,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals-Miracle-Clear-Skin-Serum.jpg?v=1787009667",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Miracle Clear Skin Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/MS-serum-icons.jpg?v=1696370697",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Miracle Clear Skin Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/MS-water-icons.jpg?v=1696370698",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Miracle Clear Skin Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/kiss-text_6b979cfe-b23f-49ca-9d4f-d4540b89acd4.jpg?v=1696370697",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Miracle Clear Skin Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/kifk_605a137b-7eda-408e-b50f-5fb01fba95e3.jpg?v=1696370697",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Miracle Clear Skin Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/many.jpg?v=1696370696",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Miracle Clear Skin Serum"
+        }
+      ],
+      "description": "A potent combination designed to clear acne-prone skin and provide an even skin tone. Gently formulated at 97% naturally derived, it targets impurities without stripping the skin. Key ingredients Natural salicylic acid — from willow bark, it exfoliates inside the pore to keep breakouts in check. Tea tree oil — a natural anti-blemish ingredient. Clove and colloidal silver — support clearer-looking skin. Centella asiatica and snail mucin — calm and repair while the actives work.",
+      "rating": {
+        "value": 4.6,
+        "count": 38
+      },
+      "url": "https://seoulceuticals.com/products/miracle-clear-skin-serum"
+    },
+    {
+      "handle": "advanced-snail-serum",
+      "title": "Advanced Snail Serum",
+      "type": "Serum",
+      "tags": [
+        "Advanced Snail Serum",
+        "concern:hydration",
+        "concern:soothing",
+        "Niacinamide Serum",
+        "Snail Niacinamide Serum",
+        "Snail Serum"
+      ],
+      "concerns": [
+        "hydration",
+        "soothing"
+      ],
+      "isBundle": false,
+      "isBestseller": false,
+      "variantId": 43618944483483,
+      "price": 1999,
+      "compareAtPrice": 2299,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals-Advanced-Snail-Serum.jpg?v=1787004618",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Advanced Snail Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/Advanced_Snail_Serum_Detail.png?v=1765465255",
+          "width": 1080,
+          "height": 1080,
+          "alt": "Advanced Snail Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/AS-serum-icons.jpg?v=1696288509",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Advanced Snail Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/snail-serum-flying-2.jpg?v=1696288506",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Advanced Snail Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/Snail-Serum-infused.jpg?v=1696288509",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Advanced Snail Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/text.jpg?v=1696288507",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Advanced Snail Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/ass-kiss.jpg?v=1696288506",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Advanced Snail Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/rice-oil-water-icons.jpg?v=1696288506",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Advanced Snail Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/ass-kifk.jpg?v=1696288508",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Advanced Snail Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/float.jpg?v=1696288507",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Advanced Snail Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/untitled.jpg?v=1696288510",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Advanced Snail Serum"
+        }
+      ],
+      "description": "A cutting-edge snail mucin formula that pairs 97.5% concentration snail filtrate with 5% niacinamide and hyaluronic acid, offering next-generation skin repair. Lightweight enough for daily use, morning and night. Key ingredients 97.5% concentration snail filtrate — repairs and deeply hydrates. 5% niacinamide — evens tone and refines the look of pores. Turmeric — brightens dull, tired skin. Kelp and rice extract — remineralise and nourish.",
+      "rating": {
+        "value": 5,
+        "count": 4
+      },
+      "url": "https://seoulceuticals.com/products/advanced-snail-serum"
+    },
+    {
+      "handle": "activated-chebula-serum",
+      "title": "Activated Chebula Serum",
+      "type": "Serum",
+      "tags": [
+        "Activated Chebula Serum",
+        "Chebula",
+        "Chebula Serum",
+        "concern:anti-aging"
+      ],
+      "concerns": [
+        "anti-aging"
+      ],
+      "isBundle": false,
+      "isBestseller": false,
+      "variantId": 43620935860379,
+      "price": 2498,
+      "compareAtPrice": 2899,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals-Activated-Chebula-Serum.jpg?v=1787004618",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Activated Chebula Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/02_B0CB9GVRP7_71wnURN00YL.jpg?v=1787181700",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Activated Chebula Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/03_B0CB9GVRP7_814xv62yRhL.jpg?v=1787181700",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Activated Chebula Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/04_B0CB9GVRP7_71DGhAN1E8L.jpg?v=1787181700",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Activated Chebula Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/05_B0CB9GVRP7_71JwpRexnVL.jpg?v=1787181700",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Activated Chebula Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/06_B0CB9GVRP7_91Fqw00DkKL.jpg?v=1787181700",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Activated Chebula Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/07_B0CB9GVRP7_91YbpZKlPFL.jpg?v=1787181700",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Activated Chebula Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/08_B0CB9GVRP7_81vXhePvxSL.jpg?v=1787181700",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Activated Chebula Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/09_B0CB9GVRP7_91A8zMtNRSL.jpg?v=1787181700",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Activated Chebula Serum"
+        }
+      ],
+      "description": "Blended with ingredients trusted for centuries, this 97% naturally derived formula penetrates deep into the skin to restore and rejuvenate. A daily antioxidant treatment for skin that looks tired, dull or stressed. Key ingredients Chebula — an Ayurvedic antioxidant powerhouse that helps defend against visible ageing. Palmitoyl peptides — support firmer, smoother-looking skin. Amino acid complex — replenishes what dry, stressed skin is missing. Colloidal oat — soothes and strengthens.",
+      "rating": {
+        "value": 4,
+        "count": 2
+      },
+      "url": "https://seoulceuticals.com/products/activated-chebula-serum"
+    },
+    {
+      "handle": "rice-glow-oil",
+      "title": "Rice Glow Oil",
+      "type": "Serum",
+      "tags": [
+        "anti aging",
+        "anti wrinkle",
+        "concern:brightening",
+        "concern:hydration",
+        "facial glow oil",
+        "facial hydration oil",
+        "facial oil",
+        "k beauty products",
+        "korean beauty products",
+        "korean face oil",
+        "korean serum",
+        "korean skin care",
+        "korean skin care routine",
+        "korean skincare",
+        "Rice Bran Oil",
+        "Rice Glow Oil",
+        "Rice Oil"
+      ],
+      "concerns": [
+        "brightening",
+        "hydration"
+      ],
+      "isBundle": false,
+      "isBestseller": false,
+      "variantId": 41643179344027,
+      "price": 1699,
+      "compareAtPrice": 1999,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals-Rice-Glow-Oil.jpg?v=1787005394",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Rice Glow Oil"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/02-seoulceuticals-rice-bran-oil-for-skin-1oz-skin-benefits_jpg.jpg?v=1761936264",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Rice Glow Oil"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/03-seoulceuticals-rice-bran-oil-for-skin-1oz-ingredients_jpg.jpg?v=1761936265",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Rice Glow Oil"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/04-seoulceuticals-rice-bran-oil-for-skin-1oz-clean-beauty_jpg.jpg?v=1761936265",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Rice Glow Oil"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/05-seoulceuticals-rice-bran-oil-for-skin-1oz-badges_jpg.jpg?v=1761936265",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Rice Glow Oil"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/06-seoulceuticals-rice-bran-oil-for-skin-1oz-dropper-benefits_jpg.jpg?v=1761936265",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Rice Glow Oil"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/07-seoulceuticals-rice-bran-oil-for-skin-1oz-infused-squalene_jpg.jpg?v=1761936265",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Rice Glow Oil"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/08-seoulceuticals-rice-bran-oil-for-skin-1oz-key-ingredients_jpg.jpg?v=1761936265",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Rice Glow Oil"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/09-seoulceuticals-rice-bran-oil-for-skin-1oz-steps-routine_jpg.jpg?v=1761936265",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Rice Glow Oil"
+        }
+      ],
+      "description": "A mainstay of Asian skincare for centuries, this versatile oil is packed with antioxidants and skin-soothing ingredients that reduce the appearance of ageing and protect the skin barrier. Press it in as your final step, or mix a drop into your moisturizer. Key ingredients Rice bran oil — a rich fatty acid content that deeply nourishes and boosts glow. Squalane — absorbs fast with no greasy finish. Marula and black currant seed oils — replenish and soften. Vitamin E — defends against dryness and environmental stress.",
+      "rating": {
+        "value": 4.4,
+        "count": 8
+      },
+      "url": "https://seoulceuticals.com/products/rice-glow-oil"
+    },
+    {
+      "handle": "snail-eye-cream",
+      "title": "Snail Eye Cream",
+      "type": "Moisturizer",
+      "tags": [
+        "anti aging",
+        "anti wrinkle",
+        "bestseller",
+        "concern:anti-aging",
+        "cruelty free",
+        "eye wrinkle cream",
+        "glowing skin",
+        "k beauty products",
+        "korean beauty products",
+        "korean eye cream",
+        "korean skin care",
+        "korean skin care routine",
+        "korean skincare",
+        "snail eye cream"
+      ],
+      "concerns": [
+        "anti-aging"
+      ],
+      "isBundle": false,
+      "isBestseller": true,
+      "variantId": 39716656840859,
+      "price": 1798,
+      "compareAtPrice": 2099,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals-Snail-Eye-Cream.jpg?v=1787013888",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Snail Eye Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/cbwc-sec.jpg?v=1761941762",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Snail Eye Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/new-shocked-lady-wit-benefits-sec_e096896c-c320-4427-876f-b857a89dfe65.jpg?v=1761941763",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Snail Eye Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/5-potent-ingrediens-sec.jpg?v=1761941762",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Snail Eye Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/snail-love-sec_3b921351-6512-4580-b397-f7d9ec2c91c6.jpg?v=1761941762",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Snail Eye Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/Icons-sec_4c8ed1c1-cf9f-4172-8d52-52881256b48f.jpg?v=1761941776",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Snail Eye Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/kifk-sec_6b26d231-4fe3-4a66-bc01-23ad07f370be.jpg?v=1761941778",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Snail Eye Cream"
+        }
+      ],
+      "description": "This soothing, anti-ageing eye cream protects and repairs the delicate eye area. Ideal for all skin types, the nourishing formula firms and brightens for a more youthful appearance. Key ingredients 97.5% concentration snail filtrate — repairs and hydrates the thin skin around the eyes. Palmitoyl peptides — support firmer-looking skin. CoQ10 — antioxidant defence for a delicate area. Cucumber and eyebright — visibly refresh tired-looking eyes.",
+      "rating": {
+        "value": 4.9,
+        "count": 82
+      },
+      "url": "https://seoulceuticals.com/products/snail-eye-cream"
+    },
+    {
+      "handle": "ultra-snail-serum",
+      "title": "Ultra Snail Serum",
+      "type": "Serum",
+      "tags": [
+        "anti aging",
+        "anti wrinkle",
+        "antioxidant serum",
+        "bestseller",
+        "centella asiatica serum",
+        "cica",
+        "cica serum",
+        "concern:anti-aging",
+        "concern:hydration",
+        "glowing skin",
+        "hyaluronic acid",
+        "hyaluronic acid serum",
+        "k beauty products",
+        "korean beauty products",
+        "korean serum",
+        "korean skin care",
+        "korean skin care routine",
+        "korean skincare",
+        "night serum",
+        "snail serum"
+      ],
+      "concerns": [
+        "anti-aging",
+        "hydration"
+      ],
+      "isBundle": false,
+      "isBestseller": true,
+      "variantId": 39716469309595,
+      "price": 2099,
+      "compareAtPrice": 2449,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals-Ultra-Snail-Serum.jpg?v=1787004618",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Snail Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/ULTRA_SNAIL_SERUM_2.png?v=1761936647",
+          "width": 1080,
+          "height": 1080,
+          "alt": "Ultra Snail Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/02-seoulceuticals-snail-mucin-serum-1oz-skin-benefits_jpg.jpg?v=1761936643",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Snail Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/03-seoulceuticals-snail-mucin-serum-1oz-ingredients_jpg.jpg?v=1761936643",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Snail Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/04-seoulceuticals-snail-mucin-serum-1oz-clean-beauty_jpg.jpg?v=1761936643",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Snail Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/05-seoulceuticals-snail-mucin-serum-1oz-badges_jpg.jpg?v=1761936643",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Snail Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/06-seoulceuticals-snail-mucin-serum-dropper-benefits_jpg.jpg?v=1761936643",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Snail Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/07-seoulceuticals-snail-mucin-serum-infused-snail-mucin_jpg.jpg?v=1761936643",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Snail Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/08-seoulceuticals-snail-mucin-serum-1oz-key-ingredients_jpg.jpg?v=1761936643",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Snail Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/09-seoulceuticals-snail-mucin-serum-1oz-steps-routine_jpg.jpg?v=1761936644",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Snail Serum"
+        }
+      ],
+      "description": "Rejuvenate your skin while you sleep. This advanced night formulation features the highest 97.5% concentration of snail mucin to restore smoothness, plumpness and elasticity, so you wake up to visibly refreshed skin. Key ingredients 97.5% concentration snail filtrate — repairs, hydrates and restores elasticity overnight. Multi-weight hyaluronic complex — hydrates at several depths for lasting plumpness. Polyglutamic acid — locks moisture in on the surface. Centella asiatica (cica) — calms and supports the skin barrier.",
+      "rating": {
+        "value": 4.8,
+        "count": 129
+      },
+      "url": "https://seoulceuticals.com/products/ultra-snail-serum"
+    },
+    {
+      "handle": "exfoliating-toner",
+      "title": "Exfoliating Toner for Oily, Acne Prone Skin",
+      "type": "Toner",
+      "tags": [
+        "concern:acne-pores",
+        "exfoliating toner",
+        "facial toner",
+        "glowing skin",
+        "k beauty products",
+        "korean beauty products",
+        "korean skin care",
+        "korean skin care routine",
+        "korean skincare",
+        "korean toner",
+        "toner for acne",
+        "toner for face",
+        "toner for oily skin"
+      ],
+      "concerns": [
+        "acne-pores"
+      ],
+      "isBundle": false,
+      "isBestseller": false,
+      "variantId": 39701810708635,
+      "price": 2099,
+      "compareAtPrice": 2449,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals-Exfoliating-Toner.jpg?v=1787011623",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Exfoliating Toner for Oily, Acne Prone Skin"
+        }
+      ],
+      "description": "This results-oriented toner controls oil and sweeps away dead skin cells to reveal a clearer, more radiant complexion. It vanquishes excess oil and balances hydration, prepping skin so serums absorb better. Key ingredients Gentle exfoliating acids — clear away dead surface cells and refine the look of pores. Oil-balancing botanicals — keep shine in check without over-drying. Soothing plant extracts — keep the formula comfortable for daily use.",
+      "rating": {
+        "value": 4.9,
+        "count": 53
+      },
+      "url": "https://seoulceuticals.com/products/exfoliating-toner"
+    },
+    {
+      "handle": "ultra-glow-turmeric-face-wash",
+      "title": "Ultra Glow Turmeric Face Wash",
+      "type": "Cleanser",
+      "tags": [
+        "anti aging",
+        "anti wrinkle",
+        "best korean face wash",
+        "cleanser for sensitive skin",
+        "concern:brightening",
+        "cruelty free",
+        "face wash for sensitive skin",
+        "glowing skin",
+        "hyaluronic acid",
+        "k beauty products",
+        "korean beauty products",
+        "korean cleanser",
+        "korean face wash",
+        "korean skin care",
+        "korean skin care routine",
+        "korean skincare"
+      ],
+      "concerns": [
+        "brightening"
+      ],
+      "isBundle": false,
+      "isBestseller": false,
+      "variantId": 39701787082907,
+      "price": 2099,
+      "compareAtPrice": 2449,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals-Ultra-Glow-Turmeric-Face-Wash.jpg?v=1787011657",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Glow Turmeric Face Wash"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/02_B095R6M9J5_71otGiuw2RL.jpg?v=1787181792",
+          "width": 1500,
+          "height": 1500,
+          "alt": "Ultra Glow Turmeric Face Wash"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/03_B095R6M9J5_71t6zWu-6QL.jpg?v=1787181793",
+          "width": 1500,
+          "height": 1500,
+          "alt": "Ultra Glow Turmeric Face Wash"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/04_B095R6M9J5_61E-S2l858L.jpg?v=1787181792",
+          "width": 1500,
+          "height": 1500,
+          "alt": "Ultra Glow Turmeric Face Wash"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/05_B095R6M9J5_61T3fqnDp2L.jpg?v=1787181793",
+          "width": 1500,
+          "height": 1500,
+          "alt": "Ultra Glow Turmeric Face Wash"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/06_B095R6M9J5_61U_CscxSQL.jpg?v=1787181792",
+          "width": 1500,
+          "height": 1500,
+          "alt": "Ultra Glow Turmeric Face Wash"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/07_B095R6M9J5_71UjmNrUr6L.jpg?v=1787181793",
+          "width": 1500,
+          "height": 1500,
+          "alt": "Ultra Glow Turmeric Face Wash"
+        }
+      ],
+      "description": "The ultimate cleanser for sensitive skin, infused with skin-brightening turmeric. It soothes and restores radiance while gently but thoroughly cleansing, without stripping the moisture barrier. Key ingredients Turmeric — revives dull skin with every wash. Coco and decyl glucoside — gentle plant-based cleansers that protect the moisture barrier. Hemp seed and rosehip oils — nourish while cleansing. Calendula and nettle — calm sensitive skin.",
+      "rating": {
+        "value": 4.7,
+        "count": 95
+      },
+      "url": "https://seoulceuticals.com/products/ultra-glow-turmeric-face-wash"
+    },
+    {
+      "handle": "exfoliating-cleansing-face-mask",
+      "title": "Exfoliating & Cleansing Face Mask",
+      "type": "Mask",
+      "tags": [
+        "concern:acne-pores",
+        "cream mask",
+        "exfoliating face mask",
+        "k beauty products",
+        "korean beauty products",
+        "korean face mask",
+        "korean mask",
+        "korean skin care",
+        "korean skincare"
+      ],
+      "concerns": [
+        "acne-pores"
+      ],
+      "isBundle": false,
+      "isBestseller": false,
+      "variantId": 39701746974875,
+      "price": 1899,
+      "compareAtPrice": 2199,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals_Exfoliating_Cleansing_Face_Mask.png?v=1786913486",
+          "width": 4096,
+          "height": 4096,
+          "alt": "Exfoliating & Cleansing Face Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/02_B095J8QQ6S_81kt8fzIdTL.jpg?v=1787181827",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Exfoliating & Cleansing Face Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/03_B095J8QQ6S_71rYTrqvMxL.jpg?v=1787181827",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Exfoliating & Cleansing Face Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/04_B095J8QQ6S_71W4L5tEfNL.jpg?v=1787181827",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Exfoliating & Cleansing Face Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/05_B095J8QQ6S_71BGLPhx4vL.jpg?v=1787181827",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Exfoliating & Cleansing Face Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/06_B095J8QQ6S_71nlYiBt6CL.jpg?v=1787181827",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Exfoliating & Cleansing Face Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/07_B095J8QQ6S_71ufco-xobL.jpg?v=1787181827",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Exfoliating & Cleansing Face Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/08_B095J8QQ6S_81qvysj_K-L.jpg?v=1787181827",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Exfoliating & Cleansing Face Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/09_B095J8QQ6S_91A8zMtNRSL.jpg?v=1787181827",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Exfoliating & Cleansing Face Mask"
+        }
+      ],
+      "description": "Refine and purify your skin while indulging in this deliciously creamy mask. The unique formulation brings new clarity and smoothness to skin, enhancing radiance — a weekly reset for congested, acne-prone skin. Key ingredients Kaolin clay and pumice — physically exfoliate and help unclog pores. Burdock root and lemon peel — refine texture and clarity. Cocoa seed butter — prevents the formula from over-drying. Kelp and grape seed oil — nourish while you exfoliate.",
+      "rating": {
+        "value": 4.9,
+        "count": 48
+      },
+      "url": "https://seoulceuticals.com/products/exfoliating-cleansing-face-mask"
+    },
+    {
+      "handle": "ultra-brightening-kojic-acid-serum",
+      "title": "Ultra Brightening Kojic Acid Serum",
+      "type": "Serum",
+      "tags": [
+        "alpha arbutin serum",
+        "anti aging",
+        "anti wrinkle",
+        "bestseller",
+        "brightening serum",
+        "concern:brightening",
+        "cruelty free",
+        "dark spots",
+        "day serum",
+        "fade dark spots",
+        "glowing skin",
+        "glycolic acid serum",
+        "k beauty products",
+        "kojic acid serum",
+        "korean beauty products",
+        "korean serum",
+        "korean skin care",
+        "korean skin care routine",
+        "korean skincare",
+        "salicylic acid serum"
+      ],
+      "concerns": [
+        "brightening"
+      ],
+      "isBundle": false,
+      "isBestseller": true,
+      "variantId": 39701651194011,
+      "price": 2099,
+      "compareAtPrice": 2449,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals-Ultra-Brightening-Kojic-Acid-Serum.jpg?v=1787004620",
+          "width": 4096,
+          "height": 4096,
+          "alt": "Ultra Brightening Kojic Acid Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/02-seoulceuticals-kojic-acid-serum-korean-1oz-skin-benefits_jpg.jpg?v=1761935996",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Brightening Kojic Acid Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/03-seoulceuticals-kojic-acid-serum-korean-1oz-ingredients_jpg.jpg?v=1761935997",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Brightening Kojic Acid Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/04-seoulceuticals-kojic-acid-serum-korean-1oz-clean-beauty_jpg.jpg?v=1761935997",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Brightening Kojic Acid Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/05-seoulceuticals-kojic-acid-serum-korean-1oz-badges_jpg.jpg?v=1761935997",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Brightening Kojic Acid Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/new-color-kojic.jpg?v=1764789616",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Brightening Kojic Acid Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/07-seoulceuticals-kojic-acid-serum-korean-1oz-infused-alpha-arbutin_jpg.jpg?v=1764789616",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Brightening Kojic Acid Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/08-seoulceuticals-kojic-acid-serum-korean-1oz-key-ingredients_jpg.jpg?v=1764789616",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Brightening Kojic Acid Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/09-seoulceuticals-kojic-acid-serum-korean-1oz-steps-routine_jpg.jpg?v=1764789616",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Brightening Kojic Acid Serum"
+        }
+      ],
+      "description": "This potent serum harnesses the lightening ability of multiple proven ingredients to even skin tone, brighten the complexion and improve the appearance of ageing, scarred or sun-damaged skin. With regular use, unwanted dark spots fade for more youthful, vibrant-looking skin. Key ingredients Kojic acid — targets stubborn dark spots and uneven pigment. Alpha-arbutin — a gentle brightener that evens overall tone. Glycolic acid — resurfaces to reveal fresher skin. Licorice root and green tea — keep the formula balanced and soothing.",
+      "rating": {
+        "value": 4.8,
+        "count": 52
+      },
+      "url": "https://seoulceuticals.com/products/ultra-brightening-kojic-acid-serum"
+    },
+    {
+      "handle": "hyaluronic-jelly-face-mask",
+      "title": "Hyaluronic Jelly Face Mask",
+      "type": "Mask",
+      "tags": [
+        "anti aging",
+        "anti wrinkle",
+        "concern:hydration",
+        "glowing skin",
+        "hyaluronic acid",
+        "k beauty products",
+        "korean beauty products",
+        "korean face mask",
+        "korean mask",
+        "korean skin care",
+        "korean skin care routine",
+        "korean skincare"
+      ],
+      "concerns": [
+        "hydration"
+      ],
+      "isBundle": false,
+      "isBestseller": false,
+      "variantId": 39701628518555,
+      "price": 1899,
+      "compareAtPrice": 2199,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals_Hyaluronic_Jelly_Face_Mask.png?v=1786913491",
+          "width": 4096,
+          "height": 4096,
+          "alt": "Hyaluronic Jelly Face Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/products/hyaluronic-jelly-face-mask-562556.jpg?v=1765490788",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Hyaluronic Jelly Face Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/products/hyaluronic-jelly-face-mask-988558.jpg?v=1765490788",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Hyaluronic Jelly Face Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/products/hyaluronic-jelly-face-mask-763331.jpg?v=1765490788",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Hyaluronic Jelly Face Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/products/hyaluronic-jelly-face-mask-495425.jpg?v=1765490788",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Hyaluronic Jelly Face Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/products/hyaluronic-jelly-face-mask-218873.jpg?v=1765490788",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Hyaluronic Jelly Face Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/products/hyaluronic-jelly-face-mask-367035.jpg?v=1765490788",
+          "width": 1200,
+          "height": 1082,
+          "alt": "Hyaluronic Jelly Face Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/products/hyaluronic-jelly-face-mask-704097.jpg?v=1765490788",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Hyaluronic Jelly Face Mask"
+        }
+      ],
+      "description": "Thirsty skin is no match for this spa-level mask. This moisture-rich formulation visibly plumps the skin and restores youthfulness and radiance — the jelly texture cools and comforts on contact. Key ingredients Hyaluronic acid and sodium PCA — flood skin with moisture. Palmitoyl peptides — support smoother, firmer-looking skin. Full amino acid complex — replenishes what dehydrated skin lacks. Rosehip and argan oils — soften and nourish.",
+      "rating": {
+        "value": 4.9,
+        "count": 63
+      },
+      "url": "https://seoulceuticals.com/products/hyaluronic-jelly-face-mask"
+    },
+    {
+      "handle": "ginseng-super-serum",
+      "title": "Ginseng Super Serum",
+      "type": "Serum",
+      "tags": [
+        "anti aging",
+        "anti wrinkle",
+        "antioxidant serum",
+        "centella asiatica serum",
+        "cica",
+        "cica serum",
+        "concern:anti-aging",
+        "day serum",
+        "ginseng serum",
+        "glowing skin",
+        "k beauty products",
+        "korean beauty products",
+        "korean serum",
+        "korean skin care",
+        "korean skin care routine",
+        "korean skincare"
+      ],
+      "concerns": [
+        "anti-aging"
+      ],
+      "isBundle": false,
+      "isBestseller": false,
+      "variantId": 39701608071323,
+      "price": 1899,
+      "compareAtPrice": 2199,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals-Ginseng-Serum.jpg?v=1787005394",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ginseng Super Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/products/ginseng-super-serum-311311.jpg?v=1686702910",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Ginseng Super Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/products/ginseng-super-serum-773117.jpg?v=1686702910",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Ginseng Super Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/products/ginseng-super-serum-869533.jpg?v=1686702910",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Ginseng Super Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/products/ginseng-super-serum-946156.jpg?v=1686702910",
+          "width": 1000,
+          "height": 1000,
+          "alt": "Ginseng Super Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/products/ginseng-super-serum-856605.jpg?v=1686702910",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Ginseng Super Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/products/ginseng-super-serum-342337.jpg?v=1686702904",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Ginseng Super Serum"
+        }
+      ],
+      "description": "This supercharged antioxidant serum drenches skin with hydration and delivers an array of beautifying, anti-ageing benefits. Impressive results accrue with regular use, morning and night. Key ingredients Korean ginseng — used in traditional skincare for centuries to energise and firm tired-looking skin. Propolis and royal jelly — deeply nourish and restore bounce. Hyaluronic acid — plumps and hydrates. Colloidal oatmeal — soothes and comforts.",
+      "rating": {
+        "value": 4.9,
+        "count": 39
+      },
+      "url": "https://seoulceuticals.com/products/ginseng-super-serum"
+    },
+    {
+      "handle": "ultra-glow-green-tea-mask",
+      "title": "Ultra Glow Green Tea Mask",
+      "type": "Mask",
+      "tags": [
+        "anti aging",
+        "anti wrinkle",
+        "concern:brightening",
+        "concern:soothing",
+        "cream mask",
+        "cruelty free",
+        "face mask",
+        "face mask for sensitive skin",
+        "glowing skin",
+        "green tea mask",
+        "k beauty mask",
+        "k beauty products",
+        "korean beauty products",
+        "korean face mask",
+        "korean mask",
+        "korean skin care",
+        "korean skin care routine",
+        "korean skincare",
+        "mask for sensitive skin"
+      ],
+      "concerns": [
+        "brightening",
+        "soothing"
+      ],
+      "isBundle": false,
+      "isBestseller": false,
+      "variantId": 39701587787931,
+      "price": 1899,
+      "compareAtPrice": 2199,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals_Ultra_Glow_Green_Tea_Mask.png?v=1786913661",
+          "width": 4096,
+          "height": 4096,
+          "alt": "Ultra Glow Green Tea Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/02_B094V7WVB2_81PnXwTDJGL.jpg?v=1787181888",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Ultra Glow Green Tea Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/03_B094V7WVB2_81YGfQjbEAL.jpg?v=1787181887",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Ultra Glow Green Tea Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/04_B094V7WVB2_71U4IREDdaL.jpg?v=1787181887",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Ultra Glow Green Tea Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/05_B094V7WVB2_71n39QrFj_L.jpg?v=1787181887",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Ultra Glow Green Tea Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/06_B094V7WVB2_71iUvTncMLL.jpg?v=1787181887",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Ultra Glow Green Tea Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/07_B094V7WVB2_81McfFhjqwL.jpg?v=1787181887",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Ultra Glow Green Tea Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/08_B094V7WVB2_81Phof8P9RL.jpg?v=1787181888",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Ultra Glow Green Tea Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/09_B094V7WVB2_91TahGmmN7L.jpg?v=1787181887",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Ultra Glow Green Tea Mask"
+        }
+      ],
+      "description": "Soothing and rejuvenating, this antioxidant-rich mask restores moisture and nourishes skin with essential nutrients. The gentle formulation stimulates glow without irritation — ideal for skin that is stressed or reactive. Key ingredients Green tea — antioxidant and calming benefits for stressed skin. Kaolin clay — gently draws out impurities without stripping. Kelp and sea water extract — remineralise and hydrate. Apricot kernel and rice bran oils — leave skin soft rather than tight.",
+      "rating": {
+        "value": 4.9,
+        "count": 51
+      },
+      "url": "https://seoulceuticals.com/products/ultra-glow-green-tea-mask"
+    },
+    {
+      "handle": "snail-mucin-turmeric-anti-aging-mask",
+      "title": "Snail Mucin & Turmeric Anti Aging Mask",
+      "type": "Mask",
+      "tags": [
+        "anti aging",
+        "anti wrinkle",
+        "bestseller",
+        "concern:anti-aging",
+        "concern:brightening",
+        "cream mask",
+        "cruelty free",
+        "face mask for sensitive skin",
+        "glowing skin",
+        "k beauty mask",
+        "k beauty products",
+        "korean beauty products",
+        "korean face mask",
+        "korean mask",
+        "korean skin care routine",
+        "korean skincare",
+        "snail mucin mask",
+        "turmeric face mask",
+        "turmeric mask"
+      ],
+      "concerns": [
+        "anti-aging",
+        "brightening"
+      ],
+      "isBundle": false,
+      "isBestseller": true,
+      "variantId": 39699568459931,
+      "price": 1899,
+      "compareAtPrice": 2199,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals_Snail_Mucin_Turmeric_Anti_Aging_Mask.png?v=1786913495",
+          "width": 4096,
+          "height": 4096,
+          "alt": "Snail Mucin & Turmeric Anti Aging Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/02-seoulceuticals-snail-mucin-face-mask-skin-benefits.jpg?v=1761936481",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Snail Mucin & Turmeric Anti Aging Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/03-seoulceuticals-snail-mucin-face-mask-popular-collage_jpg.jpg?v=1761936482",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Snail Mucin & Turmeric Anti Aging Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/04-seoulceuticals-snail-mucin-face-mask-ingredients_jpg.jpg?v=1761936481",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Snail Mucin & Turmeric Anti Aging Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/05-seoulceuticals-snail-mucin-face-mask-badges_jpg.jpg?v=1761936481",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Snail Mucin & Turmeric Anti Aging Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/05-seoulceuticals-snail-mucin-face-mask-ingredients_jpg.jpg?v=1761936482",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Snail Mucin & Turmeric Anti Aging Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/06-seoulceuticals-snail-mucin-face-mask-key-ingredients_jpg.jpg?v=1761936482",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Snail Mucin & Turmeric Anti Aging Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/07-seoulceuticals-snail-mucin-face-mask-clean-beauty.jpg-copy.jpg?v=1761936481",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Snail Mucin & Turmeric Anti Aging Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/08-seoulceuticals-snail-mucin-face-mask-happy-application_jpg.jpg?v=1761936481",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Snail Mucin & Turmeric Anti Aging Mask"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/09-seoulceuticals-snail-mucin-face-mask-steps-routine_jpg.jpg?v=1761936483",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Snail Mucin & Turmeric Anti Aging Mask"
+        }
+      ],
+      "description": "A viral TikTok success — the unique formula and rave reviews of this mask are unmatched by any other K-beauty product of its kind. Users are often surprised by the visible improvement in skin glow after using it just once. Key ingredients Turmeric — clinically supported anti-inflammatory and skin-brightening effects. Saffron stem cell extract — boosts overall skin health and radiance. Rice bran extract — deeply nourishes and moisturises with a rich fatty acid content. Snail mucin — repairs and hydrates.",
+      "rating": {
+        "value": 4.9,
+        "count": 50
+      },
+      "url": "https://seoulceuticals.com/products/snail-mucin-turmeric-anti-aging-mask"
+    },
+    {
+      "handle": "ultra-glow-turmeric-face-cream",
+      "title": "Ultra Glow Turmeric Face Cream",
+      "type": "Moisturizer",
+      "tags": [
+        "concern:brightening"
+      ],
+      "concerns": [
+        "brightening"
+      ],
+      "isBundle": false,
+      "isBestseller": false,
+      "variantId": 39699072483483,
+      "price": 1899,
+      "compareAtPrice": 2199,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals_Ultra_Glow_Turmeric_Face_Cream.png?v=1786913490",
+          "width": 4096,
+          "height": 4096,
+          "alt": "Ultra Glow Turmeric Face Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/02-seoulceuticals-turmeric-face-cream-moisturizer-2oz-skin-benefits_jpg.jpg?v=1761936541",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Glow Turmeric Face Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/03-seoulceuticals-turmeric-face-cream-moisturizer-2oz-skin-ingredients_jpg.jpg?v=1761936541",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Glow Turmeric Face Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/04-seoulceuticals-turmeric-face-cream-moisturizer-2oz-clean-beauty_jpg.jpg?v=1761936541",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Glow Turmeric Face Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/05-seoulceuticals-turmeric-face-cream-moisturizer-2oz-skin-badges.jpgNEW.jpg?v=1761936541",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Glow Turmeric Face Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/06-seoulceuticals-turmeric-face-cream-moisturizer-2oz-skin-key-ingredients_jpg.jpg?v=1761936542",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Glow Turmeric Face Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/07-seoulceuticals-turmeric-face-cream-moisturizer-2oz-happy-application_jpg.jpg?v=1761936542",
+          "width": 4096,
+          "height": 4096,
+          "alt": "Ultra Glow Turmeric Face Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/08-seoulceuticals-turmeric-face-cream-moisturizer-2oz-skin-steps-routine_jpg.jpg?v=1761936542",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Glow Turmeric Face Cream"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/09-seoulceuticals-turmeric-face-cream-moisturizer-2oz-skin-flatlay_jpg.png?v=1761936542",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Ultra Glow Turmeric Face Cream"
+        }
+      ],
+      "description": "This powerful moisturizer rapidly restores youthful skin and glow. It brightens and rehydrates to improve the appearance of ageing, dry and dull skin — light enough to wear under makeup. Key ingredients Turmeric — brightens and calms dull skin. Reishi and shiitake ferment — a mushroom ferment that targets uneven tone. Glycolic acid and willow bark — gently smooth texture. Hyaluronic acid and shea butter — replenish moisture.",
+      "rating": {
+        "value": 4.8,
+        "count": 165
+      },
+      "url": "https://seoulceuticals.com/products/ultra-glow-turmeric-face-cream"
+    },
+    {
+      "handle": "marine-mineral-plump-glow-essence",
+      "title": "Marine Mineral Plump & Glow Essence",
+      "type": "Essence",
+      "tags": [
+        "anti aging",
+        "anti wrinkle",
+        "bestseller",
+        "concern:hydration",
+        "cruelty free",
+        "essence",
+        "facial toner",
+        "glowing skin",
+        "hyaluronic acid",
+        "k beauty products",
+        "korean beauty products",
+        "korean essence",
+        "korean skin care",
+        "korean skin care routine",
+        "korean skincare",
+        "korean toner",
+        "toner for face"
+      ],
+      "concerns": [
+        "hydration"
+      ],
+      "isBundle": false,
+      "isBestseller": true,
+      "variantId": 37733123948699,
+      "price": 1998,
+      "compareAtPrice": 2500,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals-Marine-Mineral-Plump-_-Glow-Essence.jpg?v=1787012839",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Marine Mineral Plump & Glow Essence"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/02_B07CXTLTKF_81gQqgTQ0CL.jpg?v=1787181936",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Marine Mineral Plump & Glow Essence"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/03_B07CXTLTKF_71CbiQ-x5zL.jpg?v=1787181936",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Marine Mineral Plump & Glow Essence"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/04_B07CXTLTKF_71XwdNc6cFL.jpg?v=1787181936",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Marine Mineral Plump & Glow Essence"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/05_B07CXTLTKF_71hk0Sxg82L.jpg?v=1787181936",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Marine Mineral Plump & Glow Essence"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/07_B07CXTLTKF_81e3wXdEcjL.jpg?v=1787181936",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Marine Mineral Plump & Glow Essence"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/06_B07CXTLTKF_91TahGmmN7L.jpg?v=1787181936",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Marine Mineral Plump & Glow Essence"
+        }
+      ],
+      "description": "A Korean-inspired essence developed as a hydration prepping mist. A critical step in a K-beauty routine, for use after cleansing and before moisturizing — it preps skin so everything that follows absorbs better. Key ingredients Biomin marine mineral ferment — zinc, copper, magnesium and iron to revitalise. Tamarind seed extract — hydrates like a plant-based hyaluronic acid. Cucumber and chamomile — soothe on contact. Green tea — antioxidant support.",
+      "rating": {
+        "value": 4.6,
+        "count": 431
+      },
+      "url": "https://seoulceuticals.com/products/marine-mineral-plump-glow-essence"
+    },
+    {
+      "handle": "day-glow-serum",
+      "title": "Day Glow Vitamin C Serum",
+      "type": "Serum",
+      "tags": [
+        "anti aging",
+        "anti wrinkle",
+        "bestseller",
+        "concern:anti-aging",
+        "concern:brightening",
+        "day serum",
+        "glowing skin",
+        "k beauty products",
+        "korean beauty products",
+        "korean serum",
+        "korean skin care",
+        "korean skin care routine",
+        "korean skincare",
+        "vc serum",
+        "vitamin c serum",
+        "vitamin c with hyaluronic acid"
+      ],
+      "concerns": [
+        "anti-aging",
+        "brightening"
+      ],
+      "isBundle": false,
+      "isBestseller": true,
+      "variantId": 37732981637275,
+      "price": 1998,
+      "compareAtPrice": 2299,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals-Day-Glow-Serum.jpg?v=1787004618",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Day Glow Vitamin C Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/image-2.jpg?v=1789426271",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Day Glow Vitamin C Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/icons_e4717af0-2ce7-425a-b44d-fc3fe99ffd53.jpg?v=1789426270",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Day Glow Vitamin C Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/results.jpg?v=1789426271",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Day Glow Vitamin C Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/texture.jpg?v=1789426271",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Day Glow Vitamin C Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/how-to-use.jpg?v=1789426271",
+          "width": 4096,
+          "height": 4096,
+          "alt": "Day Glow Vitamin C Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/comparison-table_4153cf40-2959-4ad8-adf5-23346e2ea66f.jpg?v=1789504715",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Day Glow Vitamin C Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/routine.jpg?v=1789426270",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Day Glow Vitamin C Serum"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/value.jpg?v=1789426271",
+          "width": 3000,
+          "height": 3000,
+          "alt": "Day Glow Vitamin C Serum"
+        }
+      ],
+      "description": "This serum has gained a cult following as an alternative to SkinCeuticals' well-known $200 CE Ferulic serum — and is reported by many as being even more effective. It uses a synergistic, science-backed blend of vitamin C, vitamin E and ferulic acid to fade sun spots and improve skin tone while giving skin an instantly visible glow. Key ingredients Vitamin C — the gold-standard ingredient for brightening, smoothing and improving skin tone while protecting against free radicals. Ferulic acid — stabilises the vitamin C, giving the serum a longer shelf life. Vitamin E — boosts the efficacy of vitamin C, supporting collagen and helping skin repair more effectively. Hyaluronic acid — draws in moisture so skin stays plump and comfortable.",
+      "rating": {
+        "value": 4.5,
+        "count": 1938
+      },
+      "url": "https://seoulceuticals.com/products/day-glow-serum"
+    },
+    {
+      "handle": "multi-function-all-in-one-anti-aging-snail-repair-cream",
+      "title": "Snail Repair Cream Moisturizer",
+      "type": "Moisturizer",
+      "tags": [
+        "anti aging",
+        "anti wrinkle",
+        "bestseller",
+        "concern:anti-aging",
+        "concern:hydration",
+        "concern:soothing",
+        "cruelty free",
+        "k beauty products",
+        "korean beauty products",
+        "korean cream",
+        "korean moisturizer",
+        "korean skin care",
+        "korean skin care routine",
+        "korean skincare",
+        "snail cream",
+        "snail repair cream"
+      ],
+      "concerns": [
+        "anti-aging",
+        "hydration",
+        "soothing"
+      ],
+      "isBundle": false,
+      "isBestseller": true,
+      "variantId": 37732954407067,
+      "price": 1998,
+      "compareAtPrice": 2299,
+      "available": true,
+      "images": [
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals_Snail_Repair_Cream.png?v=1786913491",
+          "width": 4096,
+          "height": 4096,
+          "alt": "Snail Repair Cream Moisturizer"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/02_B07BB3FK19_81GSf-AL2CL.jpg?v=1787182021",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Snail Repair Cream Moisturizer"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/03_B07BB3FK19_81Ee2W74-PL.jpg?v=1787182021",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Snail Repair Cream Moisturizer"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/04_B07BB3FK19_71NABW1wWnL.jpg?v=1787182021",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Snail Repair Cream Moisturizer"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/05_B07BB3FK19_71W4IQFuE1L.jpg?v=1787182020",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Snail Repair Cream Moisturizer"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/06_B07BB3FK19_71HXV08BqBL.jpg?v=1787182021",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Snail Repair Cream Moisturizer"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/07_B07BB3FK19_81msDwS0qgL.jpg?v=1787182021",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Snail Repair Cream Moisturizer"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/08_B07BB3FK19_81OXJl2oC6L.jpg?v=1787182021",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Snail Repair Cream Moisturizer"
+        },
+        {
+          "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/09_B07BB3FK19_91A8zMtNRSL.jpg?v=1787182021",
+          "width": 2560,
+          "height": 2560,
+          "alt": "Snail Repair Cream Moisturizer"
+        }
+      ],
+      "description": "Organically featured in BuzzFeed, this multifunctional anti-ageing cream is one of the most recognisable products in the K-beauty space. Countless before-and-after photos showcase results for wrinkle reduction, overall skin appearance and even stubborn cystic acne. Key ingredients 97.5% concentration snail filtrate — the viral K-beauty ingredient famed for hydrating, reducing the look of wrinkles and improving skin tone. Vitamin B5 — supports skin barrier function and skin cell regeneration. Vitamin E — antioxidant protection, skin repair and moisture balance. Shea butter and jojoba oil — nourish without clogging pores. Retinol — in the formula: wear sunscreen every morning and do not stack it with another retinol.",
+      "rating": {
+        "value": 4.6,
+        "count": 1646
+      },
+      "url": "https://seoulceuticals.com/products/multi-function-all-in-one-anti-aging-snail-repair-cream"
+    }
+  ]
+}

@@ -1,0 +1,498 @@
+---
+import Img from '../ui/Img.astro';
+import Button from '../ui/Button.astro';
+import Price from '../product/Price.astro';
+import { hero } from '../../content/home.ts';
+import { rating, shipping } from '../../content/site.ts';
+import { getProduct } from '../../lib/catalog.ts';
+
+const featured = getProduct(hero.featuredHandle);
+const [satA, satB] = hero.satellites;
+---
+
+<section class="hero" data-hero aria-labelledby="hero-title">
+  <!-- Surface: the cream macro paints immediately (LCP); a porcelain veil lifts off it. -->
+  <div class="hero__bg" data-hero-bg aria-hidden="true">
+    <div class="hero__bg-pointer" data-depth="-6">
+      <Img image={hero.surface} widths={[960, 1440, 1920, 2560]} sizes="100vw" priority alt="" class="hero__bg-img" data-hero-bg-img />
+    </div>
+    <div class="hero__light"></div>
+    <div class="hero__veil" data-hero-veil></div>
+  </div>
+
+  <!--
+    Composition rule: nothing ever covers the headline or the copy. Three bands that never overlap:
+    the headline (top), the still life (middle stage, between the copy and the product details),
+    and the foot. Depth comes from parallax, soft-focus satellites and the scroll reframe.
+  -->
+  <div class="hero__stage container">
+    <p class="hero__meta label" data-hero-meta>
+      <span>{hero.eyebrow[0]}</span><span class="hero__slash" aria-hidden="true">/</span><span>{hero.eyebrow[1]}</span>
+    </p>
+    <p class="hero__meta hero__meta--index label" data-hero-meta>{hero.index}</p>
+
+    <h1 id="hero-title" class="hero__title">
+      <span class="hero__line hero__line--back" data-hero-scroll="back" data-depth="8">
+        <span class="line"><span data-hero-line>{hero.headline.lead}</span></span>
+      </span>
+      <span class="hero__line hero__line--front" data-hero-scroll="front" data-depth="-10">
+        <span class="line"><span data-hero-line><em>{hero.headline.accent}</em></span></span>
+      </span>
+    </h1>
+
+    <!-- Layering per object: position (CSS) > scroll + pointer (GSAP) > idle float > intro on the img. -->
+    {
+      satA && (
+        <div class="hero__sat hero__sat--a" aria-hidden="true">
+          <div data-hero-scroll="sat-a" data-depth="30">
+            <div class="hero__float" data-hero-float="slow">
+              <span class="hero__sat-shadow" aria-hidden="true"></span>
+              <Img image={satA} widths={[320, 480, 640]} sizes="(min-width: 1024px) 17vw, 30vw" alt="" class="hero__sat-img" data-hero-sat />
+            </div>
+          </div>
+        </div>
+      )
+    }
+    {
+      satB && (
+        <div class="hero__sat hero__sat--b" aria-hidden="true">
+          <div data-hero-scroll="sat-b" data-depth="38">
+            <div class="hero__float" data-hero-float="slower">
+              <span class="hero__sat-shadow" aria-hidden="true"></span>
+              <Img image={satB} widths={[320, 480, 640]} sizes="(min-width: 1024px) 14vw, 26vw" alt="" class="hero__sat-img" data-hero-sat />
+            </div>
+          </div>
+        </div>
+      )
+    }
+
+    <figure class="hero__product">
+      <div data-hero-scroll="product" data-depth="18">
+        <div class="hero__float" data-hero-float="main">
+          <span class="hero__shadow" aria-hidden="true"></span>
+          <Img
+            image={hero.product}
+            widths={[640, 960, 1280, 1600, 2000]}
+            sizes="(min-width: 1200px) 42vw, (min-width: 768px) 46vw, 90vw"
+            priority
+            class="hero__product-img"
+            data-hero-product
+          />
+        </div>
+      </div>
+      <figcaption class="visually-hidden">{featured.title}</figcaption>
+    </figure>
+
+    <div class="hero__foot" data-hero-scroll="foot">
+      <div class="hero__intro" data-hero-meta>
+        <p class="hero__body">{hero.body}</p>
+        <div class="hero__ctas">
+          <Button href={hero.primary.href}>{hero.primary.label}</Button>
+          <a class="text-link" href={hero.secondary.href}>{hero.secondary.label}</a>
+        </div>
+      </div>
+      <div class="hero__aside" data-hero-meta>
+        <a href={featured.url} class="hero__feature">
+          <span class="label hero__fig">Fig. 01</span>
+          <span class="hero__feature-title">{featured.title}</span>
+          <Price product={featured} />
+        </a>
+        <ul class="hero__proof small" role="list">
+          <li>
+            <svg viewBox="0 0 13 12" aria-hidden="true"><path d="M6.5 0l1.9 3.9 4.3.6-3.1 3 .7 4.3L6.5 9.8 2.6 11.8l.7-4.3-3.1-3 4.3-.6z" fill="currentColor"></path></svg>
+            <strong>{rating.value}/5</strong> average
+          </li>
+          <li><strong>{rating.reviews}</strong> reviews</li>
+          <li>{shipping.replace(' on every order', '')}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .hero {
+    position: relative;
+    overflow: clip;
+    isolation: isolate;
+    background: var(--c-porcelain);
+  }
+
+  /* ---------- Surface ---------- */
+  .hero__bg {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    overflow: hidden;
+  }
+  .hero__bg-pointer {
+    position: absolute;
+    inset: -3%;
+  }
+  .hero__bg :global(.hero__bg-img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 62%;
+  }
+  .hero__light {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(circle at calc(var(--lx, 64) * 1%) calc(var(--ly, 34) * 1%), rgba(255, 252, 246, 0.55), transparent 42%),
+      linear-gradient(180deg, rgba(243, 240, 233, 0.55) 0%, rgba(243, 240, 233, 0) 30%, rgba(243, 240, 233, 0) 62%, rgba(243, 240, 233, 0.82) 100%);
+    mix-blend-mode: soft-light;
+  }
+  .hero__light::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(243, 240, 233, 0.4) 0%, transparent 30%, transparent 64%, rgba(243, 240, 233, 0.8) 100%);
+  }
+  .hero__veil {
+    position: absolute;
+    inset: 0;
+    background: var(--c-porcelain);
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  /* Intro pre-states, only while the motion system owns them (3 s failsafe in BaseLayout). */
+  :global(html.motion) .hero__veil {
+    opacity: 1;
+  }
+  :global(html.motion) .hero [data-hero-line] {
+    transform: translate3d(0, 110%, 0);
+  }
+  :global(html.motion) .hero [data-hero-product],
+  :global(html.motion) .hero [data-hero-sat],
+  :global(html.motion) .hero [data-hero-meta] {
+    opacity: 0;
+  }
+
+  /* ---------- Stage ----------
+     --fs drives everything: the headline is sized by the smaller of width and height, and the
+     still life's band starts below the headline (title top + two lines). */
+  .hero__stage {
+    --fs: min(12.8vw, 21vh);
+    --title-top: calc(var(--header-h) + clamp(44px, 7vh, 92px));
+    --title-bottom: calc(var(--title-top) + var(--fs) * 1.66);
+    position: relative;
+    height: 100svh;
+    min-height: 700px;
+    max-height: 1180px;
+  }
+  .hero__meta {
+    position: absolute;
+    top: calc(var(--header-h) + clamp(14px, 2.4vh, 32px));
+    left: var(--gutter);
+    z-index: 5;
+    display: flex;
+    gap: 12px;
+    color: var(--c-text-muted);
+  }
+  .hero__meta--index {
+    left: auto;
+    right: var(--gutter);
+  }
+  .hero__slash {
+    color: var(--c-persimmon-text);
+  }
+
+  .hero__title {
+    position: absolute;
+    z-index: 3;
+    top: var(--title-top);
+    left: var(--gutter);
+    right: var(--gutter);
+    display: grid;
+    font-size: var(--fs);
+    font-weight: 500;
+    line-height: 0.83;
+  }
+  .hero__line {
+    display: block;
+    white-space: nowrap;
+  }
+  .hero__line--back {
+    justify-self: start;
+    margin-left: -0.04em;
+    letter-spacing: -0.06em;
+  }
+  .hero__line--front {
+    justify-self: end;
+    font-family: var(--font-serif);
+    font-size: 0.98em;
+    letter-spacing: -0.025em;
+  }
+  .hero__line--front em {
+    font-style: italic;
+    font-weight: 400;
+  }
+  .hero__line .line {
+    padding-bottom: 0.12em;
+    margin-bottom: -0.12em;
+  }
+
+  /* Still life: in the stage between the copy (left) and the product details (right). */
+  .hero__product {
+    position: absolute;
+    z-index: 2;
+    margin: 0;
+    left: 53%;
+    top: calc(var(--title-bottom) + 2vh);
+    bottom: clamp(28px, 5vh, 64px);
+    width: 40vw;
+    transform: translateX(-50%);
+    display: grid;
+    align-items: center;
+  }
+  .hero__product > div {
+    max-height: 100%;
+  }
+  .hero__product :global(.hero__product-img) {
+    position: relative;
+    width: 100%;
+    max-height: calc(100svh - var(--title-bottom) - 7vh);
+    height: auto;
+    object-fit: contain;
+  }
+  .hero__float {
+    position: relative;
+  }
+  /* Soft contact shadow as its own element: no CSS filter on animated layers. */
+  .hero__shadow {
+    position: absolute;
+    left: 8%;
+    right: 6%;
+    bottom: 2%;
+    height: 16%;
+    border-radius: 50%;
+    background: radial-gradient(closest-side, rgba(73, 40, 30, 0.32), rgba(73, 40, 30, 0.12) 55%, transparent);
+    transform: translateY(40%);
+  }
+
+  /* Floating formulas: crisp product renders, each in its own empty pocket of the composition,
+     each with its own soft shadow (an element, not a CSS filter). Depth is carried by size,
+     tilt and parallax strength rather than blur. */
+  .hero__sat {
+    position: absolute;
+    z-index: 1;
+    aspect-ratio: 1;
+  }
+  .hero__sat :global(.hero__sat-img) {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  .hero__sat-shadow {
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    bottom: 10%;
+    height: 9%;
+    border-radius: 50%;
+    background: radial-gradient(closest-side, rgba(73, 40, 30, 0.3), rgba(73, 40, 30, 0.1) 60%, transparent);
+    transform: translateY(70%);
+  }
+  /* Pocket: left of "reformulated.", under "Skincare,", above the copy. */
+  .hero__sat--a {
+    width: min(15vw, 25vh, 300px);
+    left: calc(var(--gutter) + 1.5vw);
+    top: calc(var(--title-top) + var(--fs) * 0.9);
+    transform: rotate(-12deg);
+  }
+  /* Pocket: right of the still life, under "reformulated.", above the product details. */
+  .hero__sat--b {
+    width: min(12vw, 24vh, 240px);
+    right: calc(var(--gutter) + 2vw);
+    top: calc(var(--title-top) + var(--fs) * 1.75);
+    transform: rotate(10deg);
+  }
+
+  .hero__foot {
+    position: absolute;
+    z-index: 4;
+    left: var(--gutter);
+    right: var(--gutter);
+    bottom: clamp(24px, 4.4vh, 48px);
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: end;
+    gap: var(--col-gap);
+    pointer-events: none;
+  }
+  .hero__foot > * {
+    pointer-events: auto;
+  }
+  .hero__intro {
+    display: grid;
+    gap: 22px;
+    max-width: min(30ch, 25vw);
+  }
+  .hero__body {
+    font-size: var(--fs-lead);
+    line-height: 1.45;
+  }
+  .hero__ctas {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px 28px;
+  }
+  .hero__aside {
+    display: grid;
+    gap: 16px;
+    justify-items: end;
+    justify-self: end;
+    text-align: right;
+    max-width: min(26ch, 24vw);
+  }
+  .hero__feature {
+    display: grid;
+    justify-items: end;
+    gap: 4px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--c-border);
+    transition: border-color var(--dur-fast) var(--ease-out);
+  }
+  .hero__feature:hover {
+    border-color: var(--c-ink);
+  }
+  .hero__feature-title {
+    font-family: var(--font-serif);
+    font-size: 1.5rem;
+    line-height: 1.1;
+  }
+  .hero__feature :global(.price) {
+    justify-content: flex-end;
+  }
+  .hero__fig {
+    color: var(--c-text-muted);
+  }
+  .hero__proof {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 6px 16px;
+    list-style: none;
+    padding: 0;
+    color: var(--c-text-muted);
+  }
+  .hero__proof li {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .hero__proof strong {
+    color: var(--c-ink);
+    font-weight: 500;
+  }
+  .hero__proof svg {
+    width: 12px;
+    height: 12px;
+    color: var(--c-persimmon);
+  }
+
+  /* Short laptop screens: the pocket above the copy is shallower. */
+  @media (min-width: 1024px) and (max-height: 780px) {
+    .hero__sat--a {
+      width: min(11vw, 19vh, 220px);
+    }
+  }
+  @media (max-width: 1199px) {
+    .hero__product {
+      width: 36vw;
+    }
+  }
+  /* ---------- Tablet portrait & mobile: stacked bands (headline · still life · foot) ---------- */
+  @media (max-width: 1023px) {
+    .hero__stage {
+      --fs: min(13.4vw, 15vh);
+      height: auto;
+      min-height: 100svh;
+      max-height: none;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      align-content: start;
+      padding-top: calc(var(--header-h) + clamp(14px, 2.4vh, 32px));
+      padding-bottom: 28px;
+      gap: clamp(14px, 2.4vh, 28px);
+    }
+    .hero__meta,
+    .hero__title,
+    .hero__product,
+    .hero__foot {
+      position: relative;
+      inset: auto;
+      top: auto;
+      left: auto;
+      right: auto;
+      bottom: auto;
+      transform: none;
+    }
+    .hero__meta--index {
+      display: none;
+    }
+    .hero__product {
+      width: min(84vw, 58vh * 1.84);
+      justify-self: center;
+    }
+    .hero__product :global(.hero__product-img) {
+      max-height: none;
+    }
+    .hero__foot {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      margin-top: auto;
+    }
+    .hero__intro {
+      max-width: 40ch;
+    }
+    .hero__aside {
+      max-width: 36ch;
+    }
+    .hero__sat {
+      display: none;
+    }
+  }
+  @media (max-width: 767px) {
+    .hero__stage {
+      --fs: 19vw;
+    }
+    .hero__meta {
+      flex-wrap: wrap;
+      gap: 4px 8px;
+    }
+    .hero__product {
+      width: 94vw;
+    }
+    .hero__sat {
+      display: none;
+    }
+    .hero__foot {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 18px;
+    }
+    .hero__intro {
+      max-width: none;
+    }
+    .hero__body {
+      font-size: 1rem;
+    }
+    .hero__aside {
+      justify-self: start;
+      justify-items: start;
+      text-align: left;
+      max-width: none;
+    }
+    .hero__feature {
+      display: none;
+    }
+    .hero__proof {
+      justify-content: flex-start;
+    }
+    .hero__ctas :global(.btn) {
+      flex: 1 1 auto;
+    }
+  }
+</style>

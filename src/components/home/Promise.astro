@@ -1,0 +1,79 @@
+---
+import Img from '../ui/Img.astro';
+import { promise } from '../../content/home.ts';
+---
+
+<section class="promise" data-header-theme="dark" aria-labelledby="promise-title">
+  <div class="promise__media" aria-hidden="true">
+    <Img image={promise.image} widths={[960, 1440, 1920, 2560]} sizes="100vw" alt="" class="promise__img" data-parallax="7" />
+  </div>
+  <div class="promise__shade" aria-hidden="true"></div>
+
+  <div class="container promise__content">
+    <p class="label promise__label" data-reveal="up">{promise.label}</p>
+    <h2 id="promise-title" class="promise__title" data-reveal="lines">
+      <span class="line"><span>{promise.headline.lead}</span></span>
+      <span class="line"><span><em>{promise.headline.accent}</em></span></span>
+    </h2>
+    <p class="promise__body" data-reveal="up">{promise.body}</p>
+  </div>
+</section>
+
+<style>
+  .promise {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    min-height: clamp(560px, 92svh, 960px);
+    display: grid;
+    align-items: center;
+    color: var(--c-on-dark);
+    background: #12201f;
+  }
+  .promise__media {
+    position: absolute;
+    inset: -8% 0;
+    z-index: -2;
+  }
+  .promise__media :global(.promise__img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 45%;
+  }
+  /* Ink wash: keeps the real bottles legible as texture while the type reads at AA. */
+  .promise__shade {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background:
+      radial-gradient(ellipse at 50% 50%, rgba(18, 22, 20, 0.62) 0%, rgba(18, 22, 20, 0.78) 60%, rgba(18, 22, 20, 0.9) 100%);
+  }
+  .promise__content {
+    display: grid;
+    justify-items: center;
+    gap: clamp(22px, 3vw, 36px);
+    padding-block: var(--section-y);
+    text-align: center;
+  }
+  .promise__label {
+    color: var(--c-on-dark-muted);
+  }
+  .promise__title {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    font-size: clamp(2.75rem, 1rem + 5.8vw, 7.5rem);
+    line-height: 0.98;
+    letter-spacing: -0.015em;
+  }
+  .promise__title em {
+    font-style: italic;
+    color: var(--c-persimmon);
+  }
+  .promise__body {
+    max-width: 58ch;
+    font-size: var(--fs-lead);
+    line-height: 1.55;
+    color: rgba(243, 240, 233, 0.86);
+  }
+</style>

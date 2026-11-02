@@ -1,0 +1,58 @@
+{
+  "id": 6110376263835,
+  "title": "Day Glow Vitamin C Serum",
+  "handle": "day-glow-serum",
+  "body_html": "<p>Vitamin C &amp; <strong>ferulic acid</strong>.</p>",
+  "product_type": "Serum",
+  "tags": [
+    "anti aging",
+    "anti wrinkle",
+    "bestseller",
+    "concern:anti-aging",
+    "concern:brightening",
+    "day serum",
+    "glowing skin",
+    "k beauty products",
+    "korean beauty products",
+    "korean serum",
+    "korean skin care",
+    "korean skin care routine",
+    "korean skincare",
+    "vc serum",
+    "vitamin c serum",
+    "vitamin c with hyaluronic acid"
+  ],
+  "variants": [
+    {
+      "id": 37732981637275,
+      "title": "Default Title",
+      "price": "19.98",
+      "compare_at_price": "22.99",
+      "available": true
+    }
+  ],
+  "images": [
+    {
+      "id": 47876316233883,
+      "created_at": "2026-08-17T16:10:16-06:00",
+      "position": 1,
+      "updated_at": "2026-08-17T16:10:18-06:00",
+      "product_id": 6110376263835,
+      "variant_ids": [],
+      "src": "https://cdn.shopify.com/s/files/1/0527/3806/4539/files/SeoulCeuticals-Day-Glow-Serum.jpg?v=1787004618",
+      "width": 3000,
+      "height": 3000
+    },
+    {
+      "id": 48509104324763,
+      "created_at": "2026-09-14T16:51:08-06:00",
+      "position": 2,
+      "updated_at": "2026-09-14T16:51:11-06:00",
+      "product_id": 6110376263835,
+      "variant_ids": [],
+      "src": "//cdn.shopify.com/s/files/1/0527/3806/4539/files/image-2.jpg?v=1789426271",
+      "width": 3000,
+      "height": 3000
+    }
+  ]
+}

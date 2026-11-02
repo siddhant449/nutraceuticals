@@ -1,0 +1,71 @@
+---
+import { proofPoints, shipping } from '../../content/site.ts';
+---
+
+<section class="proof" aria-label="SeoulCeuticals by the numbers">
+  <div class="container">
+    <ul class="proof__list" role="list">
+      {
+        proofPoints.map((p) => (
+          <li class="proof__item" data-reveal="up">
+            <span class="proof__value tabular">{p.value}</span>
+            <span class="proof__label small muted">{p.label}</span>
+          </li>
+        ))
+      }
+      <li class="proof__item proof__item--note" data-reveal="up">
+        <span class="label">{shipping}</span>
+        <span class="small muted">Figures as published on seoulceuticals.com</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<style>
+  .proof {
+    padding-block: clamp(24px, 3vw, 40px) clamp(56px, 7vw, 112px);
+  }
+  .proof__list {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr)) minmax(0, 1.25fr);
+    border-top: 1px solid var(--c-ink);
+    border-bottom: 1px solid var(--c-border);
+  }
+  .proof__item {
+    display: grid;
+    align-content: space-between;
+    gap: 18px;
+    padding: 22px 20px 26px 0;
+  }
+  .proof__item + .proof__item {
+    padding-left: 20px;
+    border-left: 1px solid var(--c-border);
+  }
+  .proof__value {
+    font-size: clamp(2.25rem, 1.4rem + 2.6vw, 4rem);
+    font-weight: 500;
+    line-height: 0.95;
+    letter-spacing: -0.04em;
+  }
+  .proof__item--note {
+    align-content: end;
+    gap: 6px;
+  }
+  @media (max-width: 1023px) {
+    .proof__list {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .proof__item:nth-child(odd) {
+      padding-left: 0;
+      border-left: 0;
+    }
+    .proof__item:nth-child(n + 3) {
+      border-top: 1px solid var(--c-border);
+    }
+    .proof__item--note {
+      grid-column: 1 / -1;
+      padding-left: 0 !important;
+      border-left: 0 !important;
+    }
+  }
+</style>

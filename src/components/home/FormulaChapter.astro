@@ -1,0 +1,462 @@
+---
+import Img from '../ui/Img.astro';
+import Price from '../product/Price.astro';
+import AddToBag from '../product/AddToBag.astro';
+import { formulaIntro, pairings } from '../../content/formula.ts';
+import { getProduct } from '../../lib/catalog.ts';
+
+const items = pairings.map((p) => ({ ...p, product: getProduct(p.productHandle) }));
+const tints = JSON.stringify(pairings.map((p) => [p.heritage.tint, p.active.tint]));
+---
+
+<section
+  id="formula"
+  class="formula section--dark"
+  data-formula
+  data-header-theme="dark"
+  data-tints={tints}
+  aria-labelledby="formula-title"
+>
+  <svg width="0" height="0" class="formula__defs" aria-hidden="true" focusable="false">
+    <defs>
+      <filter id="goo" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="14" result="blur"></feGaussianBlur>
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 26 -11"></feColorMatrix>
+      </filter>
+      {
+        items.map((p, i) => (
+          <>
+            <radialGradient id={`drop-a-${i}`} cx="40%" cy="35%" r="70%">
+              <stop offset="0%" stop-color="#F3F0E9" />
+              <stop offset="100%" stop-color={p.heritage.tint} />
+            </radialGradient>
+            <radialGradient id={`drop-b-${i}`} cx="40%" cy="35%" r="70%">
+              <stop offset="0%" stop-color="#F3F0E9" />
+              <stop offset="100%" stop-color={p.active.tint} />
+            </radialGradient>
+          </>
+        ))
+      }
+    </defs>
+  </svg>
+
+  <div class="container formula__intro">
+    <p class="label muted formula__label" data-reveal="up">{formulaIntro.label}</p>
+    <h2 id="formula-title" class="h2 formula__title" data-reveal="lines">
+      <span class="line"><span>{formulaIntro.headline.lead}</span></span>
+      <span class="line"><span><em>{formulaIntro.headline.accent}</em></span></span>
+    </h2>
+    <p class="lead muted formula__body" data-reveal="up">{formulaIntro.body}</p>
+  </div>
+
+  <div class="formula__stage" data-formula-stage>
+    <canvas class="formula__canvas" data-formula-canvas aria-hidden="true"></canvas>
+
+    <nav class="formula__rail container" aria-label="Formula pairings">
+      <p class="formula__count" aria-hidden="true">
+        <span class="formula__count-now tabular" data-formula-count>01</span>
+        <span class="formula__count-total tabular">/ {String(items.length).padStart(2, '0')}</span>
+        <span class="formula__count-name label" data-formula-name>{items[0]?.heritage.name} + {items[0]?.active.name}</span>
+      </p>
+      <ol role="list" class="formula__dots">
+        {
+          items.map((p, i) => (
+            <li>
+              <button
+                type="button"
+                class="formula__dot"
+                data-formula-tick={i}
+                data-name={`${p.heritage.name} + ${p.active.name}`}
+                aria-label={`Pairing ${i + 1}: ${p.heritage.name} + ${p.active.name}`}
+              />
+            </li>
+          ))
+        }
+      </ol>
+    </nav>
+
+    <div class="formula__pairings container">
+      {
+        items.map((p, i) => (
+          <article class="pairing" data-pairing={i} aria-labelledby={`pairing-${p.id}`}>
+            <h3 id={`pairing-${p.id}`} class="visually-hidden">
+              {p.heritage.name} and {p.active.name}: {p.product.title}
+            </h3>
+            <div class="pairing__heritage" data-pairing-side="a">
+              <p class="label pairing__kicker">Ingredient heritage</p>
+              <p class="pairing__name">
+                <em>{p.heritage.name}</em>
+              </p>
+              {p.heritage.detail && <p class="label muted">{p.heritage.detail}</p>}
+              <p class="pairing__origin label">{p.heritage.origin}</p>
+              <p class="pairing__note muted">{p.heritage.note}</p>
+            </div>
+
+            <div class="pairing__visual" data-pairing-visual>
+              <svg class="pairing__drops" viewBox="0 0 400 400" aria-hidden="true">
+                <g filter="url(#goo)">
+                  <circle class="drop drop--a" data-drop="a" cx="200" cy="200" r="118" fill={`url(#drop-a-${i})`} />
+                  <circle class="drop drop--b" data-drop="b" cx="200" cy="200" r="108" fill={`url(#drop-b-${i})`} />
+                </g>
+              </svg>
+              <div class="pairing__render" data-pairing-render>
+                <Img image={p.render} widths={[320, 480, 640, 800]} sizes="(min-width: 1024px) 26vw, 60vw" alt={p.render.alt} />
+              </div>
+            </div>
+
+            <div class="pairing__active" data-pairing-side="b">
+              <p class="label pairing__kicker">Modern active</p>
+              <p class="pairing__name">{p.active.name}</p>
+              {p.active.detail && <p class="label muted">{p.active.detail}</p>}
+              <p class="pairing__note muted">{p.active.note}</p>
+            </div>
+
+            <div class="pairing__result" data-pairing-result>
+              <p class="label pairing__kicker">The formula</p>
+              <a class="pairing__product" href={p.product.url}>
+                {p.product.title}
+              </a>
+              <p class="small muted pairing__formula-note">{p.formulaNote}</p>
+              <div class="pairing__buy">
+                <Price product={p.product} />
+                <AddToBag product={p.product} />
+              </div>
+            </div>
+          </article>
+        ))
+      }
+    </div>
+  </div>
+
+  <p class="container small muted formula__footnote">{formulaIntro.footnote}</p>
+</section>
+
+<style>
+  .formula {
+    position: relative;
+    padding-top: var(--section-y);
+    padding-bottom: clamp(48px, 6vw, 96px);
+    overflow: clip;
+  }
+  .formula__defs {
+    position: absolute;
+  }
+  .formula__intro {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: var(--col-gap);
+    row-gap: 24px;
+    margin-bottom: clamp(48px, 7vw, 120px);
+  }
+  .formula__label {
+    grid-column: 1 / -1;
+  }
+  .formula__title {
+    grid-column: 1 / 10;
+  }
+  .formula__title .line:nth-child(2) {
+    padding-left: 1.2em;
+  }
+  .formula__body {
+    grid-column: 8 / 13;
+    max-width: 40ch;
+  }
+
+  .formula__canvas {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.6s var(--ease-out);
+  }
+  :global(.formula.has-webgl) .formula__canvas {
+    opacity: 1;
+  }
+  :global(.formula.has-webgl) .pairing__drops {
+    visibility: hidden;
+  }
+
+  .formula__rail {
+    display: none;
+  }
+
+  /* ---------- Stacked (mobile / reduced motion / no JS) ---------- */
+  .formula__pairings {
+    display: grid;
+    gap: clamp(56px, 8vw, 96px);
+  }
+  .pairing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      'visual visual'
+      'a b'
+      'result result';
+    gap: 28px 20px;
+    padding-top: 28px;
+    border-top: 1px solid var(--c-border-dark);
+  }
+  .pairing__heritage {
+    grid-area: a;
+  }
+  .pairing__active {
+    grid-area: b;
+  }
+  .pairing__visual {
+    grid-area: visual;
+  }
+  .pairing__result {
+    grid-area: result;
+  }
+  .pairing__heritage,
+  .pairing__active,
+  .pairing__result {
+    display: grid;
+    align-content: start;
+    gap: 8px;
+  }
+  .pairing__kicker {
+    color: var(--c-on-dark-muted);
+  }
+  .pairing__name {
+    font-size: clamp(2rem, 1rem + 3.4vw, 5.25rem);
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: -0.03em;
+  }
+  .pairing__name em {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+  .pairing__origin {
+    color: var(--c-sage);
+    display: inline-flex;
+    gap: 8px;
+    align-items: center;
+  }
+  .pairing__origin::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+  }
+  .pairing__note {
+    font-size: var(--fs-small);
+    max-width: 30ch;
+  }
+  .pairing__visual {
+    position: relative;
+    display: grid;
+    place-items: center;
+    aspect-ratio: 1;
+    max-width: 520px;
+    width: 100%;
+    margin-inline: auto;
+  }
+  .pairing__drops {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+  }
+  .drop {
+    transform-box: fill-box;
+    transform-origin: center;
+    transition: transform 1.2s var(--ease-out);
+  }
+  .pairing:not(.is-merged) .drop--a {
+    transform: translateX(-36%);
+  }
+  .pairing:not(.is-merged) .drop--b {
+    transform: translateX(40%);
+  }
+  :global(html.reduced-motion) .pairing .drop,
+  :global(html:not(.motion)) .pairing .drop {
+    transform: none;
+    transition: none;
+  }
+  .pairing__render {
+    position: relative;
+    width: 84%;
+    filter: drop-shadow(0 30px 40px rgba(0, 0, 0, 0.35));
+  }
+  .pairing__render :global(img) {
+    width: 100%;
+    height: auto;
+  }
+  .pairing__product {
+    font-size: var(--fs-h3);
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    text-underline-offset: 4px;
+    transition: text-decoration-color var(--dur-fast) var(--ease-out);
+  }
+  .pairing__product:hover {
+    text-decoration-color: currentColor;
+  }
+  .pairing__buy {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px 24px;
+    margin-top: 10px;
+  }
+  .formula__footnote {
+    margin-top: clamp(40px, 5vw, 72px);
+  }
+
+  /* ---------- Pinned desktop composition (class set by formula-controller) ---------- */
+  :global(.formula.is-pinned) .formula__stage {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  :global(.formula.is-pinned) .formula__pairings {
+    position: absolute;
+    inset: 0;
+    display: block;
+    padding-block: calc(var(--header-h) + 24px) 40px;
+  }
+  :global(.formula.is-pinned) .pairing {
+    position: absolute;
+    inset: calc(var(--header-h) + 8px) var(--gutter) 28px;
+    grid-template-columns: minmax(0, 3fr) minmax(0, 7fr) minmax(0, 3fr);
+    grid-template-rows: 1fr auto;
+    grid-template-areas:
+      'a visual b'
+      'a result b';
+    gap: 0 var(--col-gap);
+    padding-top: 0;
+    border-top: 0;
+    opacity: 0;
+    pointer-events: none;
+  }
+  /* Opacity (not visibility) keeps every pairing readable by screen readers and reachable by Tab;
+     only the active one takes pointer input. */
+  :global(.formula.is-pinned) .pairing:first-child {
+    opacity: 1;
+  }
+  :global(.formula.is-pinned) .pairing:global(.is-active) {
+    pointer-events: auto;
+  }
+  :global(.formula.is-pinned) .pairing__heritage {
+    align-self: center;
+  }
+  :global(.formula.is-pinned) .pairing__active {
+    align-self: center;
+    text-align: right;
+    justify-items: end;
+  }
+  :global(.formula.is-pinned) .pairing__active .pairing__note {
+    margin-left: auto;
+  }
+  /* The visual takes all the height the result row leaves free. */
+  :global(.formula.is-pinned) .pairing__visual {
+    max-width: min(calc(100vh - var(--header-h) - 190px), 920px);
+    align-self: center;
+  }
+  :global(.formula.is-pinned) .pairing__render {
+    width: 88%;
+  }
+  :global(.formula.is-pinned) .pairing__result {
+    justify-items: center;
+    text-align: center;
+  }
+  :global(.formula.is-pinned) .pairing__buy {
+    justify-content: center;
+  }
+  :global(.formula.is-pinned) .drop {
+    transition: none;
+  }
+  :global(.formula.is-pinned) .formula__rail {
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: calc(var(--header-h) + 12px);
+    z-index: 3;
+    pointer-events: none;
+  }
+  /* Progress: a serif counter + pairing name on the left, four dot buttons on the right. */
+  :global(.formula.is-pinned) .formula__rail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .formula__count {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    color: var(--c-on-dark-muted);
+  }
+  .formula__count-now {
+    font-family: var(--font-serif);
+    font-size: 2.25rem;
+    line-height: 1;
+    color: var(--c-on-dark);
+  }
+  .formula__count-total {
+    font-size: var(--fs-small);
+  }
+  .formula__count-name {
+    margin-left: 14px;
+    color: var(--c-on-dark);
+  }
+  .formula__dots {
+    display: flex;
+    gap: 2px;
+    pointer-events: auto;
+  }
+  .formula__dot {
+    position: relative;
+    width: 36px;
+    height: 36px;
+  }
+  .formula__dot::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 9px;
+    height: 9px;
+    margin: -4.5px 0 0 -4.5px;
+    border-radius: 50%;
+    border: 1px solid var(--c-on-dark-muted);
+    transition:
+      background-color var(--dur-fast) var(--ease-out),
+      border-color var(--dur-fast) var(--ease-out),
+      transform var(--dur-standard) var(--ease-out);
+  }
+  .formula__dot:hover::after {
+    border-color: var(--c-on-dark);
+  }
+  .formula__dot[aria-current='step']::after {
+    background: var(--c-persimmon);
+    border-color: var(--c-persimmon);
+    transform: scale(1.35);
+  }
+
+  @media (max-width: 1023px) {
+    .formula__title,
+    .formula__body {
+      grid-column: 1 / -1;
+    }
+    .formula__title .line:nth-child(2) {
+      padding-left: 0;
+    }
+  }
+  @media (max-width: 599px) {
+    .pairing {
+      grid-template-columns: 1fr;
+      grid-template-areas: 'visual' 'a' 'b' 'result';
+    }
+  }
+</style>

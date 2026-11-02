@@ -1,0 +1,82 @@
+/* General Sans is served by Fontshare's API (permitted by the ITF Free Font License; the font files
+   are not redistributed in this repository). Instrument Serif is self-hosted via @fontsource (OFL). */
+
+*, *::before, *::after { box-sizing: border-box; }
+* { margin: 0; }
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-padding-top: calc(var(--header-h) + 16px);
+}
+html:not(.lenis) { scroll-behavior: smooth; }
+html.reduced-motion { scroll-behavior: auto; }
+
+body {
+  min-height: 100vh;
+  background: var(--c-porcelain);
+  color: var(--c-ink);
+  font-family: var(--font-sans);
+  font-size: var(--fs-body);
+  font-weight: 400;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  overflow-x: clip;
+}
+
+img, svg, video, canvas { display: block; max-width: 100%; }
+img { height: auto; }
+button, input, select { font: inherit; color: inherit; }
+button { cursor: pointer; background: none; border: 0; padding: 0; }
+a { color: inherit; text-decoration: none; }
+ul[role='list'], ol[role='list'] { list-style: none; padding: 0; }
+h1, h2, h3, h4 { font-weight: 500; text-wrap: balance; }
+p { text-wrap: pretty; }
+
+:focus-visible {
+  outline: 2px solid var(--c-persimmon);
+  outline-offset: 3px;
+}
+::selection { background: var(--c-persimmon); color: var(--c-porcelain); }
+
+.skip-link {
+  position: fixed;
+  left: 16px;
+  top: 12px;
+  z-index: 100;
+  padding: 10px 16px;
+  background: var(--c-ink);
+  color: var(--c-porcelain);
+  font-size: var(--fs-small);
+  transform: translateY(-150%);
+  transition: transform var(--dur-fast) var(--ease-out);
+}
+.skip-link:focus { transform: none; }
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0 0 0 0);
+  white-space: nowrap; border: 0;
+}
+
+/* Reveal initial states only apply while the motion system owns them (html.motion).
+   The motion module removes .motion if it fails to initialise within 3s. */
+html.motion [data-reveal='up'],
+html.motion [data-reveal='fade'] { opacity: 0; }
+html.motion [data-reveal='up'] { transform: translate3d(0, 28px, 0); }
+html.motion [data-reveal='mask'] { clip-path: inset(100% 0 0 0); }
+html.motion [data-reveal='lines'] .line > span { transform: translate3d(0, 105%, 0); }
+
+/* Lenis recommended styles */
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-smooth [data-lenis-prevent] { overscroll-behavior: contain; }
+.lenis.lenis-stopped { overflow: clip; }
+
+/* Dialog scroll lock for every input type; the stable gutter stops the page shifting sideways. */
+html { scrollbar-gutter: stable; }
+html.is-locked { overflow: hidden; }
+dialog { overscroll-behavior: contain; }

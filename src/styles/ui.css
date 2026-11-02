@@ -1,0 +1,105 @@
+/* Shared UI primitives used across sections. */
+
+.btn {
+  --btn-bg: transparent;
+  --btn-fg: currentColor;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9em;
+  min-height: 52px;
+  padding: 0 26px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  background: var(--btn-bg);
+  color: var(--btn-fg);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  line-height: 1;
+  white-space: nowrap;
+  transition:
+    background-color var(--dur-fast) var(--ease-out),
+    color var(--dur-fast) var(--ease-out),
+    border-color var(--dur-fast) var(--ease-out);
+}
+.btn__arrow { transition: transform var(--dur-fast) var(--ease-out); }
+.btn:hover .btn__arrow { transform: translateX(4px); }
+.btn--primary { --btn-bg: var(--c-ink); --btn-fg: var(--c-porcelain); }
+.btn--primary:hover { --btn-bg: var(--c-persimmon-text); }
+.btn--ghost { border-color: currentColor; }
+.btn--ghost:hover { --btn-bg: var(--c-ink); --btn-fg: var(--c-porcelain); border-color: var(--c-ink); }
+.section--dark .btn--primary { --btn-bg: var(--c-porcelain); --btn-fg: var(--c-ink); }
+.section--dark .btn--primary:hover { --btn-bg: var(--c-persimmon); --btn-fg: var(--c-ink); }
+.section--dark .btn--ghost:hover { --btn-bg: var(--c-porcelain); --btn-fg: var(--c-ink); border-color: var(--c-porcelain); }
+.btn--block { width: 100%; }
+@media (max-width: 400px) {
+  .btn { max-width: 100%; padding: 0 20px; white-space: normal; text-align: center; letter-spacing: 0.06em; }
+}
+.btn[aria-disabled='true'], .btn:disabled { opacity: 0.4; pointer-events: none; }
+
+.text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6em;
+  min-height: 44px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 100% 1px;
+  background-position: 0 calc(50% + 0.8em);
+  background-repeat: no-repeat;
+  transition: background-size var(--dur-fast) var(--ease-out);
+}
+.text-link:hover { background-size: 0% 1px; background-position: 100% calc(50% + 0.8em); }
+
+/* Price */
+.price { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.5em; font-size: var(--fs-small); }
+.price__now { font-weight: 500; font-size: 1rem; }
+.price__was { color: var(--c-text-muted); }
+.price__save {
+  font-size: var(--fs-label);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--c-persimmon-text);
+}
+.section--dark .price__was { color: var(--c-on-dark-muted); }
+.section--dark .price__save { color: var(--c-persimmon); }
+
+/* Rating */
+.rating { display: inline-flex; align-items: center; gap: 0.45em; font-size: var(--fs-small); }
+.rating svg { width: 12px; height: 12px; color: var(--c-persimmon); }
+.rating__count { color: var(--c-text-muted); }
+.section--dark .rating__count { color: var(--c-on-dark-muted); }
+
+/* Add to bag */
+.add-btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6em;
+  min-height: 48px;
+  padding: 0 22px;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  transition: background-color var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out);
+}
+.add-btn:hover:not(:disabled) { background: var(--c-ink); color: var(--c-porcelain); border-color: var(--c-ink); }
+.section--dark .add-btn:hover:not(:disabled) { background: var(--c-porcelain); color: var(--c-ink); border-color: var(--c-porcelain); }
+.add-btn[data-state='added'] { background: var(--c-sage-deep); border-color: var(--c-sage-deep); color: var(--c-porcelain); }
+.add-btn:disabled { opacity: 0.45; cursor: not-allowed; }
+.add-btn__icon { width: 12px; height: 12px; }
+
+/* Organic masks (Podium-inspired) — shapes defined once in BaseLayout's <svg> defs */
+.blob-a { clip-path: url(#blob-a); }
+.blob-b { clip-path: url(#blob-b); }

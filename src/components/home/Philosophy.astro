@@ -1,0 +1,146 @@
+---
+import Img from '../ui/Img.astro';
+import { philosophy } from '../../content/home.ts';
+---
+
+<section class="philosophy section" aria-labelledby="philosophy-title">
+  <div class="container philosophy__grid">
+    <p class="philosophy__label label muted" data-reveal="up">{philosophy.label}</p>
+    <h2 id="philosophy-title" class="philosophy__title" data-reveal="lines">
+      <span class="line"><span>{philosophy.headline.lead}</span></span>
+      <span class="line"><span><em>{philosophy.headline.accent}</em></span></span>
+    </h2>
+
+    <figure class="philosophy__fig philosophy__fig--skin">
+      <div class="philosophy__mask blob-a" data-reveal="fade">
+        <Img image={philosophy.skin} widths={[400, 640, 900]} sizes="(min-width: 1024px) 30vw, 50vw" data-parallax="-6" />
+      </div>
+      <figcaption class="label muted"><span class="tabular">Fig. 02</span> · Skin</figcaption>
+    </figure>
+
+    <div class="philosophy__text">
+      <p class="lead" data-reveal="up">{philosophy.body}</p>
+      <ol class="philosophy__pillars" role="list">
+        {
+          philosophy.pillars.map((pillar, i) => (
+            <li data-reveal="up">
+              <span class="label muted tabular">{String(i + 1).padStart(2, '0')}</span>
+              <span class="serif-roman">{pillar}</span>
+            </li>
+          ))
+        }
+      </ol>
+    </div>
+
+    <figure class="philosophy__fig philosophy__fig--formula">
+      <div class="philosophy__mask blob-b" data-reveal="fade">
+        <Img image={philosophy.formula} widths={[400, 640, 900]} sizes="(min-width: 1024px) 22vw, 50vw" data-parallax="8" />
+      </div>
+      <figcaption class="label muted"><span class="tabular">Fig. 03</span> · Formula</figcaption>
+    </figure>
+  </div>
+</section>
+
+<style>
+  .philosophy__grid {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: var(--col-gap);
+    row-gap: clamp(32px, 4vw, 64px);
+  }
+  .philosophy__label {
+    grid-column: 1 / -1;
+  }
+  .philosophy__title {
+    grid-column: 1 / -1;
+    font-size: clamp(2.6rem, 1rem + 6.2vw, 8.25rem);
+    font-weight: 500;
+    line-height: 0.92;
+    letter-spacing: -0.045em;
+  }
+  .philosophy__title em {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: -0.015em;
+    font-size: 1.05em;
+  }
+  .philosophy__title .line:nth-child(2) {
+    padding-left: 1.6em;
+  }
+  .philosophy__fig {
+    margin: 0;
+    display: grid;
+    gap: 14px;
+  }
+  .philosophy__mask {
+    overflow: hidden;
+  }
+  .philosophy__mask :global(img) {
+    width: 100%;
+    height: 118%;
+    object-fit: cover;
+    margin-top: -9%;
+  }
+  .philosophy__fig--skin {
+    grid-column: 1 / 6;
+    grid-row: 3 / 5;
+  }
+  .philosophy__fig--skin .philosophy__mask {
+    aspect-ratio: 4 / 5;
+  }
+  .philosophy__text {
+    grid-column: 7 / 12;
+    grid-row: 3;
+    align-self: start;
+    display: grid;
+    gap: 40px;
+    padding-top: clamp(0px, 4vw, 64px);
+  }
+  .philosophy__pillars {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    border-top: 1px solid var(--c-border);
+  }
+  .philosophy__pillars li {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--c-border);
+    font-size: clamp(1.5rem, 1.1rem + 1vw, 2.125rem);
+    line-height: 1;
+  }
+  .philosophy__fig--formula {
+    grid-column: 9 / 13;
+    grid-row: 4;
+    align-self: end;
+  }
+  .philosophy__fig--formula .philosophy__mask {
+    aspect-ratio: 1 / 1;
+  }
+
+  @media (max-width: 1023px) {
+    .philosophy__grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .philosophy__title .line:nth-child(2) {
+      padding-left: 0;
+    }
+    .philosophy__text {
+      grid-column: 1 / -1;
+      grid-row: auto;
+      padding-top: 0;
+    }
+    .philosophy__fig--skin {
+      grid-column: 1;
+      grid-row: auto;
+    }
+    .philosophy__fig--formula {
+      grid-column: 2;
+      grid-row: auto;
+      align-self: end;
+      padding-left: 12%;
+    }
+  }
+</style>

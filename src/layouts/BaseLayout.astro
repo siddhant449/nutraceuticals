@@ -1,0 +1,81 @@
+---
+import '@fontsource/instrument-serif/latin-400.css';
+import '@fontsource/instrument-serif/latin-400-italic.css';
+import '../styles/tokens.css';
+import '../styles/base.css';
+import '../styles/type.css';
+import '../styles/layout.css';
+import '../styles/ui.css';
+import SiteHeader from '../components/layout/SiteHeader.astro';
+import MobileMenu from '../components/layout/MobileMenu.astro';
+import BagDrawer from '../components/layout/BagDrawer.astro';
+import SiteFooter from '../components/layout/SiteFooter.astro';
+import { favicon } from '../content/site.ts';
+
+interface Props {
+  title: string;
+  description: string;
+  ogImage?: string;
+}
+
+const { title, description, ogImage } = Astro.props;
+const canonical = 'https://seoulceuticals.com/';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <!-- Prototype: keep out of search indexes so it never competes with the live store. Remove when porting. -->
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="theme-color" content="#F3F0E9" />
+    <link rel="icon" type="image/png" href={favicon} />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SeoulCeuticals" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    {ogImage && <meta property="og:image" content={ogImage} />}
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://cdn.shopify.com" />
+    <link rel="preconnect" href="https://api.fontshare.com" />
+    <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin />
+    <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600&display=swap" />
+    <script is:inline>
+      // Motion gate + failsafe: reveal states only apply under html.motion; if the motion module
+      // has not initialised within 3s (blocked/failed JS), drop the class so content is visible.
+      (function () {
+        var d = document.documentElement;
+        var reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+        d.classList.add(reduced ? 'reduced-motion' : 'motion');
+        if (!reduced) setTimeout(function () { if (!d.dataset.motionReady) d.classList.remove('motion'); }, 3000);
+      })();
+    </script>
+    <slot name="head" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+      <defs>
+        <clipPath id="blob-a" clipPathUnits="objectBoundingBox">
+          <path d="M0.52,0.02 C0.74,0 0.95,0.12 0.98,0.38 C1,0.6 0.9,0.86 0.66,0.96 C0.44,1.03 0.16,0.95 0.06,0.72 C-0.03,0.5 0.02,0.24 0.2,0.1 C0.29,0.04 0.4,0.03 0.52,0.02 Z"></path>
+        </clipPath>
+        <clipPath id="blob-b" clipPathUnits="objectBoundingBox">
+          <path d="M0.46,0 C0.7,-0.01 0.93,0.15 0.99,0.42 C1.03,0.66 0.86,0.92 0.6,0.99 C0.36,1.04 0.1,0.9 0.03,0.64 C-0.03,0.4 0.08,0.12 0.28,0.04 C0.34,0.01 0.4,0 0.46,0 Z"></path>
+        </clipPath>
+      </defs>
+    </svg>
+    <SiteHeader />
+    <slot />
+    <SiteFooter />
+    <MobileMenu />
+    <BagDrawer />
+    <script>
+      import '../scripts/main.ts';
+    </script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+---
+import type { Rating } from '../../lib/types.ts';
+
+interface Props {
+  rating: Rating | null;
+  class?: string;
+}
+
+const { rating, class: className } = Astro.props;
+const count = rating ? rating.count.toLocaleString('en-US') : '';
+---
+
+{
+  rating && (
+    <p class:list={['rating', className]}>
+      <svg viewBox="0 0 13 12" aria-hidden="true">
+        <path d="M6.5 0l1.9 3.9 4.3.6-3.1 3 .7 4.3L6.5 9.8 2.6 11.8l.7-4.3-3.1-3 4.3-.6z" fill="currentColor" />
+      </svg>
+      <span class="visually-hidden">
+        Rated {rating.value.toFixed(1)} out of 5 from {count} reviews
+      </span>
+      <span aria-hidden="true">
+        <strong class="tabular">{rating.value.toFixed(1)}</strong> <span class="rating__count tabular">({count})</span>
+      </span>
+    </p>
+  )
+}

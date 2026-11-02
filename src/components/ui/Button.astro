@@ -1,0 +1,29 @@
+---
+interface Props {
+  href: string;
+  variant?: 'primary' | 'ghost';
+  block?: boolean;
+  arrow?: boolean;
+  class?: string;
+  [key: string]: unknown;
+}
+
+const { href, variant = 'primary', block = false, arrow = true, class: className, ...rest } = Astro.props;
+const external = href.startsWith('http');
+---
+
+<a
+  href={href}
+  class:list={['btn', `btn--${variant}`, { 'btn--block': block }, className]}
+  {...(external ? { rel: 'noopener' } : {})}
+  {...rest}
+>
+  <slot />
+  {
+    arrow && (
+      <svg class="btn__arrow" width="14" height="10" viewBox="0 0 14 10" fill="none" aria-hidden="true">
+        <path d="M1 5h12M9 1l4 4-4 4" stroke="currentColor" stroke-width="1.3" />
+      </svg>
+    )
+  }
+</a>
